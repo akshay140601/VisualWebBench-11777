@@ -1,0 +1,302 @@
+ % File project.tex
+%% Style files for ACL 2021
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2021}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage{todonotes}
+\usepackage{latexsym}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage{graphicx}
+\usepackage{float}
+
+\newcommand{\cmark}{\textcolor{green}{\ding{51}}}
+\newcommand{\xmark}{\textcolor{red}{\ding{55}}}
+
+\renewcommand{\UrlFont}{\ttfamily\small}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+\aclfinalcopy 
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+\title{11-777 Report 1: Dataset Proposal and Analysis}
+
+\author{
+  Akshay Badagabettu \thanks{\hspace{4pt}Everyone Contributed Equally -- Alphabetical order} \hspace{2em}Nikolaj Hindsbo$^*$ \hspace{2em} Aayush Shah$^*$ \hspace{2em} Sai Yarlagadda$^*$ \\
+  \texttt{\{abadagab, nhindsbo, aayushsh, saisravy\}@andrew.cmu.edu}
+  }
+
+\date{}
+
+\begin{document}
+\maketitle
+\section{Problem Definition and Dataset Choice}
+%If you are choosing a dataset not listed on the course website, this section should be long enough to justify that you are qualified for your choice.  This may mean a second page.
+
+We have decided to work with the VisualWebBench \cite{liu2024visualwebbench} dataset. Our goal is to develop a model/framework to maximize the accuracies of various tasks in this dataset.
+
+\subsection{What phenomena or task does this dataset help address?}
+
+In the past couple of years, MLLMs have shown huge potential in web-related tasks, but prior to VisualWebBench, evaluating their performance in the web domain was a big challenge. There are a few famous web-related datasets such as WebArena \cite{zhou2023webarena}, VisualWebArena \cite{koh2024visualwebarena}, Mind2Web \cite{deng2024mind2web}. However, these benchmarks are either designed for general multimodal tasks or they focus on end-to-end web agent tasks. This greatly limits their capability to measure the fine-grained abilities such as OCR, grounding, and semantic understanding. Measuring them is extremely important as they are the foundation for complex web-related tasks. VisualWebBench introduces a lot of granularity in measuring these abilities and hence helps in the development of a much more capable MMML model specifically for the web domain.
+
+\subsection{What about this task is fundamentally multimodal?}
+
+The various tasks in the dataset such as WebQA, action grounding, action prediction is fundamentally multimodal because it involves understanding and processing both visual and textual information of the website. There is a lot of information scattered around the webpage and it consists of images, text, and interactive elements like buttons.
+
+To succeed in all the tasks, the model needs to extract text from images for OCR tasks, and for grounding tasks, it has to link visual elements - such as buttons, search bar, links - to their corresponding textual description or functionalities.
+
+
+\subsection{Hypothesis}
+%We believe there are three places cross-modal information can be used or imporoved
+%  \begin{enumerate}
+%    \item ...
+%    \item ...
+%    \item ...
+%  \end{enumerate}
+
+We are proposing three ideas (more like avenues that we are interested to explore).
+
+\subsubsection{Training}
+We plan to train a model with the VisualWebBench dataset, particularly using Fusion or Fusion+Gating. We feel that the biggest challenge in training is that the model will overfit to the training data and will not generalize well. This is because the dataset has only 1.5k samples and 7 tasks, so the number of samples per task is even less. However, we still want to try to develop a good shared representation and implement gating so that the model can focus on one modality over the other whenever required. We were also thinking about fine-tuning using a reward model setting. Per this
+\href{https://github.com/VisualWebBench/VisualWebBench/issues/6#:~:text=%40XinrunXu%20Thank%20you!%20It%20will%20be%20released%20in%20around%20two%20weeks!}{\textcolor{blue}{GitHub issue}}, the authors are releasing the training data in one week. Once it becomes available, we are assuming that the problem of lack of data points will be mitigated.
+
+\subsubsection{Survey to extract max performance for web-related tasks}
+
+The other avenue we are interested to explore is to conduct a comprehensive survey on the exact combination of multimodal inputs that improves the accuracy of an open/closed source MLLM to perform web-related tasks. This includes how much data, what modalities to include, performance shift when including/not including a modality. In this case, we may extend the evaluation to other web agent datasets such as WebArena or Mind2Web to test the hypothesis.
+
+\subsubsection{Integration of set of marks and reasoning tags}
+We also plan to add reasoning tags to set of marks \cite{yang2023set} segmentations. These reasoning tags provide an explanation of what the action is expected to achieve. 
+By incorporating SoM, reasoning tags, and gating mechanisms, we aim to develop a more robust and interpretable multimodal agent for web related tasks. We believe that this will enable the model to reason more effectively about the elements it interacts with, improving its overall decision making capabilities.
+
+\subsection{Expertise}
+We have the following expertise in the underlying modalities required by this task:
+  \begin{enumerate}
+      \item \textbf{Akshay Badagabettu:} Took ANLP and IDL in Spring 2024, worked with agents before. I've mostly worked in the language domain, but have some experience working with images too.
+      \item \textbf{Sai Sravan Yarlagadda:} Took NLP in Spring 2024, Worked with segmentation models and have knowledge of CV.
+      \item \textbf{Nikolaj Hindsbo} Taken a few AI courses at CMU (most work in LSTMs, CNNs, NNs), but also some experience with transformer architecture model implementation. Worked on a chatbot with "agent-like" ability, general coding background, general mechanical engineering background. 
+      \item \textbf{Aayush Shah:} Has work experience in multimodal large language models and took CV course in Spring 2024. 
+  \end{enumerate}
+
+\section{Dataset Analysis}
+\subsection{Dataset properties} %(GBs, framerate, physical hardware platform, ...)
+
+\textbf{Summary of the dataset: }The dataset consists of 1500 samples, each representing a webpage from 139 real world websites. These websites span a wide range of industries and sectors, contributing to the diversity of data. The samples are drawn from 12 different domains (sports, animals, science, and etc) and 87 different sub-domains. Each website has a unique user-interface and structure. For example, an e-commerce site focuses on product displays and filters, while blog consists of long-form text and navigation through dropdowns buttons. Images are high-resolution website screenshots (1280 pixels wide). The total size of the dataset is 1.18GB and is downloadable on HuggingFace at the following \href{https://huggingface.co/datasets/visualwebbench/VisualWebBench}{\textcolor{blue}{link}}.\\
+VisualWebBench has divided the tasks into seven major categories. A brief summary of each task is given below.
+\begin{itemize}
+    \item {\textbf{Action Prediction:} This task requires  MLLM's to predict the title of the webpage after clicking a specific element in a bounding box.}
+    \item {\textbf{Action Grounding:} This task asks MLLMs to determine which element to click in a webpage to fulfill a specific human instruction}
+    \item {\textbf{Element Grounding:}This helps in understanding MLLMs' ability to align image and text data by locating an HTML element in the webpage screenshot based on its description. MLLMs select the correct bounding box from eight candidates, using the extracted description as a guide.}
+    \item {\textbf{Element OCR:} This task provides a screenshot with a bounding box indicating the test to be recognized.}
+    \item {\textbf{Webpage QA:} In this task, MLLM's are required to answer open-ended questions based on the webpage's visual layout.}
+    \item {\textbf{Heading OCR: }This task involves getting the heading text from the screenshot of the website.}
+    \item {\textbf{Captioning:} This task evaluates MLLM's ability to generate high-quality meta descriptions for screenshots of webpages.}
+\end{itemize}
+
+% \noindent \textbf{Some other properties of the dataset include:} \\
+% \textbf{Image Resolution: } The dataset consists of high resolution images that are 1280 pixels wide. \\
+% \textbf{Total Size:} The total size of the dataset is 1.18GB and is downloadable on HuggingFace at the following \href{https://huggingface.co/datasets/visualwebbench/VisualWebBench}{\textcolor{blue}{Link}}
+
+
+% \begin{itemize}
+%     \item \textbf{Size:} 1.5K samples from 139 real websites across 87 sub-domains.
+    
+%     \item \textbf{Image Resolution:} High-resolution website screenshots (1280 pixels wide).
+%     \item \textbf{Domains Covered:} 12 different domains including travel, sports, hobby, lifestyle, animals, science, etc.
+%     \item Total Size: The benchmark dataset files total 1.18 GB \href{https://huggingface.co/datasets/visualwebbench/VisualWebBench}{\textcolor{blue}{downloadable on HuggingFace}}
+    
+% \end{itemize}
+
+\subsection{Compute Requirements}
+  % \begin{enumerate}
+  %   \item Files (can fit in RAM?)
+  %   \item Models (can fit on GCP/AWS GPUs?)
+
+
+  % \end{enumerate}
+
+The paper does not provide explicit details on compute requirements. However, we can infer the following:
+\begin{itemize}
+    \item \textbf{Files:} With 1.5K high-resolution screenshots, the dataset 1.18 GB, so this part should not require much memory allocation.
+    \item \textbf{Models:} The benchmark evaluates large multimodal models like GPT-4V, Claude, and various open-source models up to 34B parameters. In general, the larger models are the ones that had non-trival accuracy reports. We aim to focus on the open-source models, likely the 7B parameter ones identified such as LLaVA. These larger models would require high-end GPUs (like A100s), which we would only be able to get through AWS (or one of our research labs less likely).
+\end{itemize}
+
+
+\subsection{Modality analysis}
+Tables \ref{table:dataset_summary},\ref{table:bboxes},\ref{tab:analysis} and \ref{features} provides a detailed summary of the modalities used in VisualWebBench along with some initial data analysis.
+\begin{table}[h!]
+\centering
+\resizebox{\textwidth/2}{!}{
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Task} & \textbf{Number of datapoints} \\ \hline
+\texttt{WebQA} & 314 \\ \hline
+\texttt{Action Grounding} & 103 \\ \hline
+\texttt{Element Grounding} & 413 \\ \hline
+\texttt{Action Prediction} & 281 \\ \hline
+\texttt{Element OCR} & 245 \\ \hline
+\texttt{Heading OCR} & 46 \\ \hline
+\texttt{Webpage captioning} & 134 \\ \hline
+\end{tabular}}
+\caption{Number of datapoints in each task}
+\label{table:dataset_summary}
+\end{table}
+
+% Average bounding boxes per task
+\begin{table}[htbp]
+\centering
+\resizebox{\textwidth/2}{!}{
+\begin{tabular}{|c|c|}
+\hline
+{\textbf{Task}} & \textbf{Average Bounding Boxes} \\ \hline
+\texttt{WebQA} & \_\\ \hline
+\texttt{Action Grounding} & 8.0\\ \hline
+\texttt{Element Grounding} & 7.91 \\ \hline
+\texttt{Action Predictin} & 1 \\ \hline
+\texttt{Element OCR} & 1\\ \hline
+\texttt{Heading OCR} & 1 \\ \hline
+\texttt{Webpage Captioning} & \_ \\ \hline
+\end{tabular}}
+\caption{Task details with average number of objects detected per image}
+\label{table:bboxes}
+\end{table}
+
+\begin{table*}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+        \textbf{\texttt{Task}} & \textbf{\texttt{Average Answer length}} & 
+        \textbf{\texttt{Lexical Diversity}} \\ \hline
+        \texttt{WebQA} & 2.51 & 84\% \\ \hline
+        \texttt{Action Grounding} & \_ & \_ \\ \hline
+        \texttt{Element Grounding} & \_ & \_ \\ \hline
+        \texttt{Action Prediction} & 6.71 & 0.81\% \\ \hline
+        \texttt{Element OCR} & 47 & 40.68\% \\ \hline
+        \texttt{Heading OCR} & 7 & 74\% \\ \hline
+        \texttt{Webpage captioning} & 32 & 43\%\\ \hline
+    \end{tabular}
+    \caption{Average sentence length and lexical diversity}
+    \label{tab:analysis}
+\end{table*}
+
+
+\begin{table*}[h!]
+\centering
+\resizebox{\textwidth}{!}{  % Resize to fit within the text width
+\begin{tabular}{|l|c|c|c|c|c|c|c|}
+\hline
+\textbf{Features} & \textbf{WebQA} & \textbf{Action Grounding} & \textbf{Element Grounding} & \textbf{Action Prediction} & \textbf{Element OCR} & \textbf{Heading OCR} & \textbf{Webpage Captioning} \\ 
+\hline
+\textbf{id}          & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\ 
+\textbf{task\_type}   & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\ 
+\textbf{website}      & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\ 
+\textbf{image}        & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\ 
+\textbf{image\_size}  & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\ 
+\textbf{raw\_image}   & \xmark & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark \\ 
+\textbf{options}      & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark & \xmark \\ 
+\textbf{instruction}  & \xmark & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ 
+\textbf{question}     & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark \\ 
+\textbf{bbox}         & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark \\ 
+\textbf{elem\_desc}   & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark \\ 
+\textbf{answer}       & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\ 
+\hline
+\end{tabular}
+}  % End of resizebox
+\caption{Feature availability across different tasks}
+\label{features}
+\end{table*}
+
+
+
+
+
+
+% (use a small sample -- e.g. validation splits):
+%   \begin{enumerate}
+%     \item Lexical diversity, sentence length, ...
+%     \item Average number of objects detected per image
+%     \item Degrees of freedom, number of articulated objects, ...
+%   \end{enumerate}
+
+\subsection{Baselines} 
+% Four papers that have worked on this dataset
+VisualWebBench is a new multimodal evaluation benchmark. Because of the niche and recent introduction (April 2024) there are only five citations related to its paper. We have analyzed relevancy to four papers which cited VisualWebBench.
+\subsection*{TroL: Traversal of Layers for Large Language and Vision Models}
+
+TroL is composed of a vision encoder, a vision projector, and a backbone multimodal large language model (MLLM) based on a pre-trained LLM \cite{lee2024troltraversallayerslarge}. The novelty in this paper is that they have enabled the reusing of layers in a token-wise manner.  This approach simulates the effect of retracing the answering stream, while increasing the number of forward propagation layers without increasing the number of layers.
+
+\noindent TroL has been trained on 2.3M samples from a diverse dataset consisting of image/text samples, documents, charts, diagrams, symbols, and math samples. The authors have released 3 variants of the model - 1.8B, 3.8B, and 7B parameters. This architecture has been evaluated on a number of datasets including VisualWebBench where it outperformed very large open-source MMML models such as LLaVA-NeXT-34B in few of the tasks.
+
+\subsection*{Tree Search for Language Model Agents}
+The paper \cite{koh2024treesearchlanguagemodel} talked about improving decision making capabilities of language models agents through integration of a tree search algorithm. During inference, the language model agent operates within a partially observable Markov decision framework, where it uses the tree search algorithm to evaluate and select the best action paths based on a value function. The search function explores different states, receives feedback and it also backtracks whenever necessary. The value function uses GPT-4 that helps the agent estimate the reward of different states and hence it improves the decision making over time. This approach helps in improving the agent's ability to handle environments like websites, where agents needs to understand about multi-step interactions. This proposed algorithm achieved a relative increase in the success rate of 39.7\% compared to the GPT-4o agent without search when evaluated in the VisualWebArena dataset . They set a success rate of 26.4\% for this task.
+
+
+\subsection*{MMR: Evaluating Reading Ability of Large Multimodal Models}
+
+This paper introduces a novel Multi-Modal Reading (MMR) benchmark which assesses LLMs' capabilities for the task of text-rich image comprehension \cite{chen2024mmrevaluatingreadingability}. It consists of pairs of 11 visual question answering tasks on text-rich images, which can be categorized into text recognition, spatial relationships, localization, and grounding. The authors evaluated the performance of seven open-source and five proprietary models on their benchmark, observing that although proprietary models, specifically GPT-4o and Claude 3.5 Sonnet, exhibit superior performance, the open-source models still outperform them on some benchmarks. This paper is related to VisualWebBench since web-page screenshots can be considered as text-rich images as well. Some of their insights, like which models performed better on which benchmarks, could be transferred to VisualWebBench and serve as an inspiration for our project.
+
+
+\subsection*{LMMs-Eval: Reality Check on the Evaluation of Large Multimodal Models}
+The paper titled "LMMs-Eval: Reality Check on the Evaluation of Large Multimodal Models" is one of the few papers that expands on multimodal model evaluations by introducing their new multimodal model evaluation, LiveBench \cite{zhang2024lmmsevalrealitycheckevaluation}. LiveBench provides a dynamic evaluation framework that assesses models' real-time generalization abilities using constantly updated data from news and online forums. This approach emphasizes low-cost, zero-contamination evaluations, highlighting the challenges in balancing comprehensive coverage with practical constraints in multimodal model assessments.\\
+When compared to VisualWebBench, both LiveBench and VisualWebBench share the objective of testing multimodal models, but each has a different focus. LiveBench evaluates how well models handle rapidly changing, real-world information, while VisualWebBench centers around evaluating models’ abilities to comprehend and interact with complex, web-based environments. Both frameworks contribute to advancing the evaluation of multimodal models by testing their adaptability and contextual reasoning in diverse, real-world scenarios. \\
+In the context of multimodality, both LiveBench and VisualWebBench underscore the importance of evaluating models in multimodal and dynamic environments. While LiveBench provides a broader range of continuously updated data, VisualWebBench focuses specifically on granularity in web interactions, offering detailed assessments of models' abilities to navigate, interpret, and reason with web content. Together, these papers offer a (hopefully better) way to benchmark multimodal model abilities.
+
+\subsection*{Set of Marks Prompting Strategy}
+In the paper \cite{yang2023set} the authors worked on a new way of visual prompting that improved the visual grounding abilities of large language models. The main idea of SoM is to overlay images with boxes or masks, thus allowing the language model to reference specific regions in an image. This approach helped GPT-4V to answer fine-grained visual questions by using the marked reguibs to improve upon its reasoning and grounding capabilities. The methodology involved partitioning image into different regions using segmentation models like SAM and MaskDINO.
+In the paper VisualWebArena \cite{koh2024visualwebarena} the authors mentioned that SoM improved navigability, boosting overall success rate from 15.05\% to 16.37\%. The authors stated that most websites have  smaller sized images that are arranged very closely and using SoM representations with strong vision language model proved critical for accurately clicking on the right button.
+
+\subsection{Metrics used}
+
+Table \ref{tab:evaluation_metrics} shows the evaluation metrics used for the 7 different tasks in VisualWebBench.
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth/2}{!}{  % Resize to fit within the text width
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Task} & \textbf{Evaluation Metric} \\ 
+\hline
+\texttt{Captioning}          & ROUGE-L  \\ \hline
+\texttt{WebQA}               & F1 score \\ \hline
+\texttt{Heading OCR}         & ROUGE-L  \\ \hline
+\texttt{Element OCR}         & ROUGE-L  \\ \hline
+\texttt{Element Grounding}   & Accuracy \\ \hline
+\texttt{Action Prediction}   & Accuracy \\ \hline
+\texttt{Action Grounding}    & Accuracy \\ \hline
+\end{tabular}
+}  % End of resizebox
+\caption{The benchmark uses different metrics for different tasks.}
+\label{tab:evaluation_metrics}
+\end{table}
+
+
+
+%\clearpage
+
+
+%\clearpage
+\section{Team member contributions}
+\paragraph{Nikolaj Hindsbo} worked on and wrote Section 2 except modality analysis. Paper analysis - LMMs-Eval
+
+\paragraph{Sai Sravan Yarlagadda} worked on and wrote 1.3.3 and modality analysis. Paper analysis - Tree Search, Set of Marks
+
+\paragraph{Akshay Badagabettu} worked on and wrote Section 1 except 1.3.3. Paper analysis - TroL
+
+\paragraph{Aayush Shah} worked on and wrote Section 2 except modality analysis. Paper analysis - MMR
+
+%\clearpage
+% Please use 
+\bibliographystyle{acl_natbib}
+\bibliography{references}
+
+%\appendix
+
+
+
+\end{document}
