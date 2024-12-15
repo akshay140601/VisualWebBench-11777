@@ -1,0 +1,2 @@
+Results for /home/abadagab/LLaVA/infer_results_v2/test-00000-of-00001-action_prediction.csv: {'accuracy': 0.0}
+Results for /home/abadagab/LLaVA/infer_results_v2/test-00000-of-00001-element_ocr.csv: {'rouge_1': 55.64279378138617, 'rouge_2': 44.692999211693525, 'rouge_l': 54.82366950408809}

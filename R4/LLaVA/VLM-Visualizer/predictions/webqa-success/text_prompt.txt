@@ -1,0 +1,10 @@
+What is the topic of the latest product review mentioned on the homepage?
+To answer this, first consider the relevant details on the webpage and any contextual clues. Then, distill the information down to the clearest and most direct response possible.
+Before providing any solution, you need to reply with a comprehensive chain of thought reasoning that fully delves into all areas of the problem. Only after providing a comprehensive chain of through reasoning you may provide the answer.
+
+After doing so, you should end your answer with:
+Answer: <YOUR ANSWER>
+
+
+
+predicted_answer: <s> The latest product review on the homepage is about a dog food product.</s>

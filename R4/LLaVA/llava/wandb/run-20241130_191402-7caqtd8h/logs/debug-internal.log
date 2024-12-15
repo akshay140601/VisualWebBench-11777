@@ -1,0 +1,8 @@
+{"time":"2024-11-30T19:14:02.231825997-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-30T19:14:02.231841934-05:00","level":"INFO","msg":"created symlink","path":"/home/abadagab/LLaVA/llava/wandb/run-20241130_191402-7caqtd8h/logs/debug-core.log"}
+{"time":"2024-11-30T19:14:02.439895731-05:00","level":"INFO","msg":"created new stream","id":"7caqtd8h"}
+{"time":"2024-11-30T19:14:02.439934215-05:00","level":"INFO","msg":"stream: started","id":"7caqtd8h"}
+{"time":"2024-11-30T19:14:02.439971445-05:00","level":"INFO","msg":"handler: started","stream_id":"7caqtd8h"}
+{"time":"2024-11-30T19:14:02.440263828-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"7caqtd8h"}
+{"time":"2024-11-30T19:14:02.440267665-05:00","level":"INFO","msg":"sender: started","stream_id":"7caqtd8h"}
+{"time":"2024-11-30T19:14:02.67993149-05:00","level":"INFO","msg":"Starting system monitor"}

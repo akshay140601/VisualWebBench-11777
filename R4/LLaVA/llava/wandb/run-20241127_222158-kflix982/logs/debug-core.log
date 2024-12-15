@@ -1,0 +1,14 @@
+{"time":"2024-11-27T22:21:58.234791407-05:00","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmp1yc5ain1/port-4008011.txt","pid":4008011,"debug":false,"disable-analytics":false}
+{"time":"2024-11-27T22:21:58.234835352-05:00","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-27T22:21:58.236728838-05:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":4008011}
+{"time":"2024-11-27T22:21:58.236733872-05:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":44959,"Zone":""}}
+{"time":"2024-11-27T22:21:58.423257126-05:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:21:58.597252249-05:00","level":"INFO","msg":"handleInformInit: received","streamId":"kflix982","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:21:58.807399178-05:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"kflix982","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:22:15.184833016-05:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:22:15.18491563-05:00","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:22:15.184932677-05:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-11-27T22:22:15.185023975-05:00","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:22:16.409554571-05:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:22:16.409606069-05:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:43646"}
+{"time":"2024-11-27T22:22:16.409638915-05:00","level":"INFO","msg":"server is closed"}

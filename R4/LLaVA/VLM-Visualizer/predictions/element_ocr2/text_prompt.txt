@@ -1,0 +1,10 @@
+You are given a screenshot of a webpage with a red rectangle bounding box. The [x1, y1, x2, y2] coordinates of the bounding box is [0.205 0.388 0.795 0.415].
+Please perform OCR in the bounding box and recognize the text content within the red bounding box.
+
+You should use the following format:
+The text content within the red bounding box is: <YOUR ANSWER>
+
+
+
+
+Answer given by LLaVA: <s> The text content within the red bounding box is: "Be first to see new products!".</s>

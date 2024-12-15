@@ -1,0 +1,98 @@
+  0%|                                                  | 0/3718 [00:00<?, ?it/s]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+[2024-11-30 13:24:07,154] [WARNING] [stage3.py:1991:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|                                       | 1/3718 [00:14<15:10:47, 14.70s/it]Traceback (most recent call last):
+{'loss': 2.3867, 'learning_rate': 1.7857142857142857e-06, 'epoch': 0.0}
+  File "/home/abadagab/LLaVA/llava/train/train_mem.py", line 4, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/home/abadagab/LLaVA/llava/train/train.py", line 969, in train
+    trainer.train()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1869, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2772, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2795, in compute_loss
+    outputs = model(**inputs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1833, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/peft/peft_model.py", line 1644, in forward
+    return self.base_model(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 197, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/abadagab/LLaVA/llava/model/language_model/llava_llama.py", line 91, in forward
+    return super().forward(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1215, in forward
+    loss = loss_fct(shift_logits, shift_labels)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1179, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/functional.py", line 3053, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 0 has a total capacty of 47.53 GiB of which 1.08 GiB is free. Process 29991 has 15.19 GiB memory in use. Process 34986 has 7.14 GiB memory in use. Including non-PyTorch memory, this process has 24.10 GiB memory in use. Of the allocated memory 20.70 GiB is allocated by PyTorch, and 2.90 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/home/abadagab/LLaVA/llava/train/train_mem.py", line 4, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/home/abadagab/LLaVA/llava/train/train.py", line 969, in train
+    trainer.train()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1869, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2772, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2795, in compute_loss
+    outputs = model(**inputs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1833, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/peft/peft_model.py", line 1644, in forward
+    return self.base_model(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 197, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/abadagab/LLaVA/llava/model/language_model/llava_llama.py", line 91, in forward
+    return super().forward(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1215, in forward
+    loss = loss_fct(shift_logits, shift_labels)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1179, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/functional.py", line 3053, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 0 has a total capacty of 47.53 GiB of which 1.08 GiB is free. Process 29991 has 15.19 GiB memory in use. Process 34986 has 7.14 GiB memory in use. Including non-PyTorch memory, this process has 24.10 GiB memory in use. Of the allocated memory 20.70 GiB is allocated by PyTorch, and 2.90 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

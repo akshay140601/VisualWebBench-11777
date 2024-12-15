@@ -1,0 +1,8 @@
+{"time":"2024-11-30T19:14:01.832163163-05:00","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmpqe6aam3k/port-75143.txt","pid":75143,"debug":false,"disable-analytics":false}
+{"time":"2024-11-30T19:14:01.832214984-05:00","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-30T19:14:01.833977347-05:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":75143}
+{"time":"2024-11-30T19:14:01.83394833-05:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":45927,"Zone":""}}
+{"time":"2024-11-30T19:14:02.001957198-05:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:44512"}
+{"time":"2024-11-30T19:14:02.231243347-05:00","level":"INFO","msg":"handleInformInit: received","streamId":"7caqtd8h","id":"127.0.0.1:44512"}
+{"time":"2024-11-30T19:14:02.439939942-05:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"7caqtd8h","id":"127.0.0.1:44512"}
+{"time":"2024-12-01T02:36:22.282776537-05:00","level":"INFO","msg":"Parent process exited, terminating service process."}

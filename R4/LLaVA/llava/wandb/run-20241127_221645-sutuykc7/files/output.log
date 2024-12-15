@@ -1,0 +1,65 @@
+  0%|                                                     | 0/1 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/abadagab/LLaVA/llava/train/train_mem.py", line 4, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/home/abadagab/LLaVA/llava/train/train.py", line 969, in train
+    trainer.train()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1836, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/accelerate/data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/_utils.py", line 694, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/abadagab/LLaVA/llava/train/train.py", line 701, in __getitem__
+    image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/PIL/Image.py", line 3431, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/abadagab/LLaVA/llava/v0.6_5M/task_data_vv4_50K_8_curated_v2/v0.6_5M/task_data_vv4_50K_8_curated_v2/action_prediction/annotated_images/05090256_thestreaminglive.com_business_car-wash-_start640_annotated62.png'
+
+Traceback (most recent call last):
+  File "/home/abadagab/LLaVA/llava/train/train_mem.py", line 4, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/home/abadagab/LLaVA/llava/train/train.py", line 969, in train
+    trainer.train()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1836, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/accelerate/data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/_utils.py", line 694, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/abadagab/LLaVA/llava/train/train.py", line 701, in __getitem__
+    image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+  File "/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/PIL/Image.py", line 3431, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/abadagab/LLaVA/llava/v0.6_5M/task_data_vv4_50K_8_curated_v2/v0.6_5M/task_data_vv4_50K_8_curated_v2/action_prediction/annotated_images/05090256_thestreaminglive.com_business_car-wash-_start640_annotated62.png'

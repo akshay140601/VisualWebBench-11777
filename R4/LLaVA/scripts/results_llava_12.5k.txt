@@ -1,0 +1,7 @@
+Results for /home/abadagab/LLaVA/infer_results/test-00000-of-00001-action_ground.csv: {'accuracy': 0.0}
+Results for /home/abadagab/LLaVA/infer_results/test-00000-of-00001-action_prediction.csv: {'accuracy': 0.0}
+Results for /home/abadagab/LLaVA/infer_results/test-00000-of-00001-element_ground.csv: {'accuracy': 0.0}
+Results for /home/abadagab/LLaVA/infer_results/test-00000-of-00001-element_ocr.csv: {'rouge_1': 9.580972402390376, 'rouge_2': 2.665585289937697, 'rouge_l': 8.845692935991128}
+Results for /home/abadagab/LLaVA/infer_results/test-00000-of-00001-heading_ocr.csv: {'rouge_1': 16.902149062058577, 'rouge_2': 11.204215137561068, 'rouge_l': 16.902149062058577}
+Results for /home/abadagab/LLaVA/infer_results/webqa.csv: {'f1': 0.14903895441947804}
+Results for /home/abadagab/LLaVA/infer_results/test-00000-of-00001-web_caption.csv: {'rouge_1': 2.460468060356375, 'rouge_2': 0.283092385246717, 'rouge_l': 1.997497085853563}

@@ -1,0 +1,4 @@
+You are given a screenshot of a webpage. Please generate the meta web description information of this webpage, i.e., content attribute in <meta name="description" content=""> HTML element.
+
+You should use the following format, and do not output any explanation or any other contents:
+<meta name="description" content="YOUR ANSWER">

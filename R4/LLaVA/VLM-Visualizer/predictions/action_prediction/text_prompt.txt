@@ -1,0 +1,20 @@
+You are given a screenshot of a webpage with a red rectangle bounding box. The [x1, y1, x2, y2] coordinates of the bounding box is [0.384 0.613 0.476 0.666].
+Please select the best webpage description that matches the new webpage after clicking the selected element in the bounding box:
+['How to write a poem about society, Poems about Society  : All Poetry'
+ 'Adult Poems - Modern Award-winning Adult Poetry : All Poetry'
+ 'Lgbtq Poems - Modern Award-winning Lgbtq Poetry : All Poetry'
+ 'Newest Poems : All Poetry'
+ 'Kneeling at the gate of hell - a poem by E-a- Abernathy - All Poetry'
+ 'Examples of Teen Poetry, How to write a Teen Poem : All Poetry'
+ 'Racism Poems - Modern Award-winning Racism Poetry : All Poetry'
+ 'Poems  / Trade comments : All Poetry']
+
+First, provide the reasoning behind your answer and then provide the ID of the selected choice in a single uppercase letter. Format of your answer is:
+Thought: <thought>
+Answer: <answer>
+
+
+
+predicted_answer:
+<s> Thought: The poem is about kneeling at the gate of hell.
+Answer: <Kneeling at the gate of hell - a poem by E-a-Abernathy - All Poetry></s>

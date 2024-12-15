@@ -1,0 +1,21 @@
+  0%|                                                    | 0/10 [00:00<?, ?it/s]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+100%|███████████████████████████████████████████| 10/10 [01:38<00:00,  9.89s/it]
+{'loss': 2.8654, 'learning_rate': 0.0002, 'epoch': 1.0}
+{'loss': 2.8654, 'learning_rate': 0.00019396926207859084, 'epoch': 2.0}
+{'loss': 1.8091, 'learning_rate': 0.0001766044443118978, 'epoch': 3.0}
+{'loss': 1.0101, 'learning_rate': 0.00015000000000000001, 'epoch': 4.0}
+{'loss': 0.383, 'learning_rate': 0.00011736481776669306, 'epoch': 5.0}
+{'loss': 0.0946, 'learning_rate': 8.263518223330697e-05, 'epoch': 6.0}
+{'loss': 0.0446, 'learning_rate': 5.000000000000002e-05, 'epoch': 7.0}
+{'loss': 0.0079, 'learning_rate': 2.339555568810221e-05, 'epoch': 8.0}
+{'loss': 0.0052, 'learning_rate': 6.030737921409169e-06, 'epoch': 9.0}
+{'loss': 0.0054, 'learning_rate': 0.0, 'epoch': 10.0}
+{'train_runtime': 99.8866, 'train_samples_per_second': 1.001, 'train_steps_per_second': 0.1, 'train_loss': 0.9090777774341404, 'epoch': 10.0}
+Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+Non-default generation parameters: {'max_length': 4096}
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.

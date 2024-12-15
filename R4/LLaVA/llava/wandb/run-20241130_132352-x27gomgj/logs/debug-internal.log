@@ -1,0 +1,16 @@
+{"time":"2024-11-30T13:23:52.016727995-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-30T13:23:52.016753343-05:00","level":"INFO","msg":"created symlink","path":"/home/abadagab/LLaVA/llava/wandb/run-20241130_132352-x27gomgj/logs/debug-core.log"}
+{"time":"2024-11-30T13:23:52.126876978-05:00","level":"INFO","msg":"created new stream","id":"x27gomgj"}
+{"time":"2024-11-30T13:23:52.126938657-05:00","level":"INFO","msg":"stream: started","id":"x27gomgj"}
+{"time":"2024-11-30T13:23:52.126964312-05:00","level":"INFO","msg":"sender: started","stream_id":"x27gomgj"}
+{"time":"2024-11-30T13:23:52.126962195-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"x27gomgj"}
+{"time":"2024-11-30T13:23:52.126984128-05:00","level":"INFO","msg":"handler: started","stream_id":"x27gomgj"}
+{"time":"2024-11-30T13:23:52.345975218-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T13:24:11.997697453-05:00","level":"INFO","msg":"stream: closing","id":"x27gomgj"}
+{"time":"2024-11-30T13:24:11.997727306-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T13:24:11.998367144-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T13:24:13.545740186-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T13:24:13.829598825-05:00","level":"INFO","msg":"handler: closed","stream_id":"x27gomgj"}
+{"time":"2024-11-30T13:24:13.829652145-05:00","level":"INFO","msg":"sender: closed","stream_id":"x27gomgj"}
+{"time":"2024-11-30T13:24:13.82965013-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"x27gomgj"}
+{"time":"2024-11-30T13:24:13.829742431-05:00","level":"INFO","msg":"stream: closed","id":"x27gomgj"}

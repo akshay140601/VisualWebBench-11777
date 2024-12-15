@@ -1,0 +1,1132 @@
+  0%|                                                  | 0/3718 [00:00<?, ?it/s]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 77%|████████████████████████████▋        | 2880/3718 [04:26<1:55:46,  8.29s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.7599, 'grad_norm': 1.5681901860647498, 'learning_rate': 2.7196240780716788e-05, 'epoch': 1.53}
+{'loss': 1.0227, 'grad_norm': 2.075200542191689, 'learning_rate': 2.7136543551981252e-05, 'epoch': 1.53}
+{'loss': 0.9378, 'grad_norm': 1.6294239669180715, 'learning_rate': 2.7076901627436567e-05, 'epoch': 1.53}
+{'loss': 1.0533, 'grad_norm': 2.2681721917227526, 'learning_rate': 2.70173150523516e-05, 'epoch': 1.54}
+{'loss': 1.0482, 'grad_norm': 1.971601898250499, 'learning_rate': 2.6957783871953224e-05, 'epoch': 1.54}
+{'loss': 1.2026, 'grad_norm': 1.9737896936361174, 'learning_rate': 2.6898308131426288e-05, 'epoch': 1.54}
+{'loss': 0.8837, 'grad_norm': 1.6188518209505156, 'learning_rate': 2.6838887875913565e-05, 'epoch': 1.54}
+{'loss': 0.6599, 'grad_norm': 1.2232525726760244, 'learning_rate': 2.6779523150515684e-05, 'epoch': 1.54}
+{'loss': 0.5233, 'grad_norm': 1.3019548455869947, 'learning_rate': 2.6720214000291132e-05, 'epoch': 1.54}
+{'loss': 0.9348, 'grad_norm': 1.816054129393843, 'learning_rate': 2.666096047025628e-05, 'epoch': 1.54}
+{'loss': 0.5128, 'grad_norm': 1.355361707381652, 'learning_rate': 2.6601762605385204e-05, 'epoch': 1.54}
+{'loss': 0.9468, 'grad_norm': 2.3495144633741, 'learning_rate': 2.6542620450609758e-05, 'epoch': 1.54}
+{'loss': 0.8286, 'grad_norm': 1.9191027741963258, 'learning_rate': 2.64835340508195e-05, 'epoch': 1.54}
+{'loss': 0.8315, 'grad_norm': 1.6047212685184822, 'learning_rate': 2.642450345086168e-05, 'epoch': 1.54}
+{'loss': 0.7589, 'grad_norm': 1.6527118774307306, 'learning_rate': 2.6365528695541196e-05, 'epoch': 1.54}
+{'loss': 0.7331, 'grad_norm': 1.4180510879096346, 'learning_rate': 2.6306609829620567e-05, 'epoch': 1.54}
+{'loss': 0.8015, 'grad_norm': 1.7126973869274347, 'learning_rate': 2.6247746897819835e-05, 'epoch': 1.54}
+{'loss': 0.6816, 'grad_norm': 1.5594146693256121, 'learning_rate': 2.6188939944816703e-05, 'epoch': 1.54}
+{'loss': 0.5334, 'grad_norm': 3.592930455422626, 'learning_rate': 2.6130189015246287e-05, 'epoch': 1.54}
+{'loss': 0.6631, 'grad_norm': 1.6678575027121543, 'learning_rate': 2.6071494153701192e-05, 'epoch': 1.54}
+{'loss': 1.0186, 'grad_norm': 1.9253123234976954, 'learning_rate': 2.601285540473152e-05, 'epoch': 1.54}
+{'loss': 0.8369, 'grad_norm': 1.9187389712576584, 'learning_rate': 2.5954272812844705e-05, 'epoch': 1.54}
+{'loss': 0.8082, 'grad_norm': 1.7743204217500301, 'learning_rate': 2.589574642250563e-05, 'epoch': 1.55}
+{'loss': 0.9373, 'grad_norm': 2.037465772685691, 'learning_rate': 2.583727627813648e-05, 'epoch': 1.55}
+{'loss': 0.8083, 'grad_norm': 2.0012730248567614, 'learning_rate': 2.5778862424116733e-05, 'epoch': 1.55}
+{'loss': 0.9979, 'grad_norm': 2.508064426562457, 'learning_rate': 2.5720504904783216e-05, 'epoch': 1.55}
+{'loss': 0.6622, 'grad_norm': 1.829729595595153, 'learning_rate': 2.5662203764429936e-05, 'epoch': 1.55}
+{'loss': 0.8584, 'grad_norm': 1.9044509470330537, 'learning_rate': 2.56039590473081e-05, 'epoch': 1.55}
+{'loss': 0.9461, 'grad_norm': 1.8447282768249305, 'learning_rate': 2.5545770797626122e-05, 'epoch': 1.55}
+{'loss': 0.6064, 'grad_norm': 1.375544683121292, 'learning_rate': 2.548763905954955e-05, 'epoch': 1.55}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 78%|████████████████████████████▉        | 2910/3718 [09:06<1:57:21,  8.72s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.6954, 'grad_norm': 1.3553396722571542, 'learning_rate': 2.542956387720101e-05, 'epoch': 1.55}
+{'loss': 0.8787, 'grad_norm': 1.9684102888383876, 'learning_rate': 2.5371545294660227e-05, 'epoch': 1.55}
+{'loss': 0.8616, 'grad_norm': 1.7411979706474148, 'learning_rate': 2.531358335596401e-05, 'epoch': 1.55}
+{'loss': 0.5974, 'grad_norm': 1.6075286658762966, 'learning_rate': 2.5255678105106085e-05, 'epoch': 1.55}
+{'loss': 1.0482, 'grad_norm': 2.1398441519695615, 'learning_rate': 2.5197829586037204e-05, 'epoch': 1.55}
+{'loss': 0.5291, 'grad_norm': 1.2484439910095773, 'learning_rate': 2.5140037842665064e-05, 'epoch': 1.55}
+{'loss': 0.8845, 'grad_norm': 1.7998489629127121, 'learning_rate': 2.508230291885424e-05, 'epoch': 1.55}
+{'loss': 0.6802, 'grad_norm': 1.4887703926514617, 'learning_rate': 2.502462485842618e-05, 'epoch': 1.55}
+{'loss': 0.8825, 'grad_norm': 1.7613016222245121, 'learning_rate': 2.496700370515922e-05, 'epoch': 1.55}
+{'loss': 0.5908, 'grad_norm': 1.524040859132816, 'learning_rate': 2.4909439502788423e-05, 'epoch': 1.55}
+{'loss': 0.4654, 'grad_norm': 1.5267410302393367, 'learning_rate': 2.4851932295005732e-05, 'epoch': 1.56}
+{'loss': 0.6605, 'grad_norm': 1.7143401029868115, 'learning_rate': 2.479448212545974e-05, 'epoch': 1.56}
+{'loss': 0.9016, 'grad_norm': 1.5892556335426027, 'learning_rate': 2.473708903775579e-05, 'epoch': 1.56}
+{'loss': 0.9549, 'grad_norm': 1.8664174254446926, 'learning_rate': 2.467975307545586e-05, 'epoch': 1.56}
+{'loss': 0.8593, 'grad_norm': 1.7099330951573228, 'learning_rate': 2.4622474282078623e-05, 'epoch': 1.56}
+{'loss': 0.838, 'grad_norm': 2.125859588964887, 'learning_rate': 2.4565252701099317e-05, 'epoch': 1.56}
+{'loss': 0.9198, 'grad_norm': 2.3172264699677565, 'learning_rate': 2.450808837594979e-05, 'epoch': 1.56}
+{'loss': 0.7299, 'grad_norm': 1.4937292227022951, 'learning_rate': 2.4450981350018366e-05, 'epoch': 1.56}
+{'loss': 0.4043, 'grad_norm': 1.7070217766271458, 'learning_rate': 2.4393931666649995e-05, 'epoch': 1.56}
+{'loss': 0.9871, 'grad_norm': 1.7551881817000579, 'learning_rate': 2.4336939369145995e-05, 'epoch': 1.56}
+{'loss': 1.0108, 'grad_norm': 2.616932092582763, 'learning_rate': 2.4280004500764187e-05, 'epoch': 1.56}
+{'loss': 0.7755, 'grad_norm': 1.7039016034921468, 'learning_rate': 2.4223127104718757e-05, 'epoch': 1.56}
+{'loss': 0.6387, 'grad_norm': 1.5569842438322938, 'learning_rate': 2.4166307224180305e-05, 'epoch': 1.56}
+{'loss': 1.0054, 'grad_norm': 2.0849912502625854, 'learning_rate': 2.4109544902275783e-05, 'epoch': 1.56}
+{'loss': 0.6437, 'grad_norm': 1.7258199256137075, 'learning_rate': 2.4052840182088388e-05, 'epoch': 1.56}
+{'loss': 0.5189, 'grad_norm': 1.463038423116427, 'learning_rate': 2.3996193106657704e-05, 'epoch': 1.56}
+{'loss': 0.4842, 'grad_norm': 1.6195435637727864, 'learning_rate': 2.3939603718979487e-05, 'epoch': 1.56}
+{'loss': 0.7841, 'grad_norm': 1.719685678317684, 'learning_rate': 2.3883072062005717e-05, 'epoch': 1.56}
+{'loss': 0.6241, 'grad_norm': 1.4069243230903459, 'learning_rate': 2.3826598178644566e-05, 'epoch': 1.56}
+{'loss': 0.6123, 'grad_norm': 1.737865775213929, 'learning_rate': 2.3770182111760352e-05, 'epoch': 1.57}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 79%|█████████████████████████████▎       | 2940/3718 [13:42<1:52:22,  8.67s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 1.0009, 'grad_norm': 1.8069496946585557, 'learning_rate': 2.3713823904173515e-05, 'epoch': 1.57}
+{'loss': 0.7365, 'grad_norm': 2.4058066397120417, 'learning_rate': 2.365752359866057e-05, 'epoch': 1.57}
+{'loss': 1.1023, 'grad_norm': 2.4077120367512896, 'learning_rate': 2.3601281237954054e-05, 'epoch': 1.57}
+{'loss': 0.8298, 'grad_norm': 1.9686754983997932, 'learning_rate': 2.3545096864742622e-05, 'epoch': 1.57}
+{'loss': 0.6414, 'grad_norm': 1.7298518091262982, 'learning_rate': 2.3488970521670827e-05, 'epoch': 1.57}
+{'loss': 0.7877, 'grad_norm': 2.4056473563453276, 'learning_rate': 2.3432902251339195e-05, 'epoch': 1.57}
+{'loss': 0.5726, 'grad_norm': 1.6659427903905335, 'learning_rate': 2.337689209630418e-05, 'epoch': 1.57}
+{'loss': 0.9877, 'grad_norm': 2.0898512116000565, 'learning_rate': 2.3320940099078127e-05, 'epoch': 1.57}
+{'loss': 0.7718, 'grad_norm': 1.8501227551660455, 'learning_rate': 2.3265046302129223e-05, 'epoch': 1.57}
+{'loss': 0.5691, 'grad_norm': 1.7983363864644775, 'learning_rate': 2.3209210747881515e-05, 'epoch': 1.57}
+{'loss': 0.7053, 'grad_norm': 1.7911593952865894, 'learning_rate': 2.3153433478714793e-05, 'epoch': 1.57}
+{'loss': 0.5017, 'grad_norm': 1.7776952124301864, 'learning_rate': 2.3097714536964688e-05, 'epoch': 1.57}
+{'loss': 0.8946, 'grad_norm': 1.7325762155415956, 'learning_rate': 2.3042053964922473e-05, 'epoch': 1.57}
+{'loss': 0.93, 'grad_norm': 2.300575185440329, 'learning_rate': 2.2986451804835162e-05, 'epoch': 1.57}
+{'loss': 0.6643, 'grad_norm': 1.7683728003096442, 'learning_rate': 2.2930908098905435e-05, 'epoch': 1.57}
+{'loss': 0.6914, 'grad_norm': 1.6354864998871819, 'learning_rate': 2.2875422889291585e-05, 'epoch': 1.57}
+{'loss': 0.8781, 'grad_norm': 2.1083976412526253, 'learning_rate': 2.281999621810752e-05, 'epoch': 1.57}
+{'loss': 1.1665, 'grad_norm': 2.3456304450901975, 'learning_rate': 2.2764628127422672e-05, 'epoch': 1.58}
+{'loss': 0.7051, 'grad_norm': 1.687980725828139, 'learning_rate': 2.2709318659262123e-05, 'epoch': 1.58}
+{'loss': 1.1555, 'grad_norm': 1.8468820177223784, 'learning_rate': 2.2654067855606354e-05, 'epoch': 1.58}
+{'loss': 0.7239, 'grad_norm': 1.7610514073587125, 'learning_rate': 2.259887575839136e-05, 'epoch': 1.58}
+{'loss': 0.6775, 'grad_norm': 1.7839942937048092, 'learning_rate': 2.254374240950855e-05, 'epoch': 1.58}
+{'loss': 0.5461, 'grad_norm': 1.377920957824035, 'learning_rate': 2.2488667850804778e-05, 'epoch': 1.58}
+{'loss': 0.8795, 'grad_norm': 1.6999371167809028, 'learning_rate': 2.243365212408225e-05, 'epoch': 1.58}
+{'loss': 0.4726, 'grad_norm': 1.709201609633782, 'learning_rate': 2.237869527109854e-05, 'epoch': 1.58}
+{'loss': 1.3889, 'grad_norm': 2.1418258913527795, 'learning_rate': 2.2323797333566487e-05, 'epoch': 1.58}
+{'loss': 0.8491, 'grad_norm': 1.866011837270144, 'learning_rate': 2.2268958353154302e-05, 'epoch': 1.58}
+{'loss': 0.6305, 'grad_norm': 1.3617897033799913, 'learning_rate': 2.2214178371485372e-05, 'epoch': 1.58}
+{'loss': 0.9924, 'grad_norm': 2.6699822855556277, 'learning_rate': 2.215945743013832e-05, 'epoch': 1.58}
+{'loss': 0.8152, 'grad_norm': 2.3762612458488626, 'learning_rate': 2.2104795570646962e-05, 'epoch': 1.58}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 80%|█████████████████████████████▌       | 2970/3718 [18:19<1:48:10,  8.68s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.5672, 'grad_norm': 1.7227734161045958, 'learning_rate': 2.2050192834500284e-05, 'epoch': 1.58}
+{'loss': 0.8419, 'grad_norm': 1.6266959212263126, 'learning_rate': 2.199564926314236e-05, 'epoch': 1.58}
+{'loss': 0.7847, 'grad_norm': 1.9633007510898586, 'learning_rate': 2.1941164897972388e-05, 'epoch': 1.58}
+{'loss': 0.8211, 'grad_norm': 1.9187144619246863, 'learning_rate': 2.1886739780344602e-05, 'epoch': 1.58}
+{'loss': 0.5361, 'grad_norm': 1.8148272254097049, 'learning_rate': 2.183237395156834e-05, 'epoch': 1.58}
+{'loss': 1.0898, 'grad_norm': 2.017818489388387, 'learning_rate': 2.1778067452907836e-05, 'epoch': 1.58}
+{'loss': 0.7542, 'grad_norm': 2.062998351962569, 'learning_rate': 2.1723820325582357e-05, 'epoch': 1.59}
+{'loss': 0.8701, 'grad_norm': 1.6431847524737109, 'learning_rate': 2.1669632610766087e-05, 'epoch': 1.59}
+{'loss': 0.5615, 'grad_norm': 1.9292639311193307, 'learning_rate': 2.1615504349588113e-05, 'epoch': 1.59}
+{'loss': 1.0755, 'grad_norm': 2.65051653876093, 'learning_rate': 2.1561435583132395e-05, 'epoch': 1.59}
+{'loss': 0.7465, 'grad_norm': 1.6665041678098367, 'learning_rate': 2.1507426352437722e-05, 'epoch': 1.59}
+{'loss': 1.233, 'grad_norm': 2.8791248289583327, 'learning_rate': 2.1453476698497753e-05, 'epoch': 1.59}
+{'loss': 0.8395, 'grad_norm': 1.7758980996205405, 'learning_rate': 2.1399586662260885e-05, 'epoch': 1.59}
+{'loss': 0.8784, 'grad_norm': 2.681530703422313, 'learning_rate': 2.1345756284630248e-05, 'epoch': 1.59}
+{'loss': 0.5976, 'grad_norm': 1.5286475046033536, 'learning_rate': 2.1291985606463726e-05, 'epoch': 1.59}
+{'loss': 0.5203, 'grad_norm': 1.4072387268598958, 'learning_rate': 2.1238274668573854e-05, 'epoch': 1.59}
+{'loss': 1.1519, 'grad_norm': 2.3335247676269026, 'learning_rate': 2.1184623511727864e-05, 'epoch': 1.59}
+{'loss': 0.717, 'grad_norm': 1.6188590869996564, 'learning_rate': 2.1131032176647582e-05, 'epoch': 1.59}
+{'loss': 0.6298, 'grad_norm': 1.5472951444160863, 'learning_rate': 2.10775007040094e-05, 'epoch': 1.59}
+{'loss': 0.5064, 'grad_norm': 1.713836450706268, 'learning_rate': 2.10240291344444e-05, 'epoch': 1.59}
+{'loss': 0.8851, 'grad_norm': 2.397829348062489, 'learning_rate': 2.0970617508538058e-05, 'epoch': 1.59}
+{'loss': 1.1223, 'grad_norm': 2.4372416870293843, 'learning_rate': 2.0917265866830416e-05, 'epoch': 1.59}
+{'loss': 0.6769, 'grad_norm': 2.0970923597088227, 'learning_rate': 2.0863974249815963e-05, 'epoch': 1.59}
+{'loss': 1.1583, 'grad_norm': 2.5314607328671817, 'learning_rate': 2.0810742697943665e-05, 'epoch': 1.59}
+{'loss': 0.8986, 'grad_norm': 1.7981582515405212, 'learning_rate': 2.0757571251616846e-05, 'epoch': 1.59}
+{'loss': 0.6804, 'grad_norm': 1.8081942590047069, 'learning_rate': 2.0704459951193255e-05, 'epoch': 1.6}
+{'loss': 0.9294, 'grad_norm': 1.8398677671846462, 'learning_rate': 2.0651408836984953e-05, 'epoch': 1.6}
+{'loss': 0.6682, 'grad_norm': 1.8274376242813881, 'learning_rate': 2.0598417949258364e-05, 'epoch': 1.6}
+{'loss': 1.1337, 'grad_norm': 2.2117125707693703, 'learning_rate': 2.054548732823417e-05, 'epoch': 1.6}
+{'loss': 0.5298, 'grad_norm': 1.6159735236824486, 'learning_rate': 2.049261701408731e-05, 'epoch': 1.6}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 81%|█████████████████████████████▊       | 3000/3718 [23:00<1:42:56,  8.60s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.7397, 'grad_norm': 2.100193822919372, 'learning_rate': 2.0439807046946946e-05, 'epoch': 1.6}
+[2024-12-01 04:05:55,564] [WARNING] [stage3.py:1991:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+{'loss': 1.0748, 'grad_norm': 2.3070705734571035, 'learning_rate': 2.0387057466896452e-05, 'epoch': 1.6}
+{'loss': 0.5507, 'grad_norm': 1.9799657758224596, 'learning_rate': 2.033436831397334e-05, 'epoch': 1.6}
+{'loss': 0.77, 'grad_norm': 1.8285905039419237, 'learning_rate': 2.0281739628169272e-05, 'epoch': 1.6}
+{'loss': 0.7636, 'grad_norm': 2.0857093679258827, 'learning_rate': 2.022917144943005e-05, 'epoch': 1.6}
+{'loss': 0.6602, 'grad_norm': 1.6885293613147114, 'learning_rate': 2.0176663817655515e-05, 'epoch': 1.6}
+{'loss': 0.6033, 'grad_norm': 1.5269850301703563, 'learning_rate': 2.0124216772699535e-05, 'epoch': 1.6}
+{'loss': 0.4724, 'grad_norm': 1.3341003962340592, 'learning_rate': 2.0071830354370025e-05, 'epoch': 1.6}
+{'loss': 0.791, 'grad_norm': 1.8967057310413766, 'learning_rate': 2.001950460242886e-05, 'epoch': 1.6}
+{'loss': 0.5356, 'grad_norm': 1.8473886150204701, 'learning_rate': 1.996723955659189e-05, 'epoch': 1.6}
+{'loss': 0.6267, 'grad_norm': 1.684414256509974, 'learning_rate': 1.991503525652888e-05, 'epoch': 1.6}
+{'loss': 1.0732, 'grad_norm': 1.9152841015223963, 'learning_rate': 1.9862891741863444e-05, 'epoch': 1.6}
+{'loss': 0.6299, 'grad_norm': 1.7847172083455878, 'learning_rate': 1.9810809052173175e-05, 'epoch': 1.6}
+{'loss': 0.4338, 'grad_norm': 1.5220264436926136, 'learning_rate': 1.9758787226989396e-05, 'epoch': 1.61}
+{'loss': 0.4807, 'grad_norm': 1.6521056447508786, 'learning_rate': 1.9706826305797244e-05, 'epoch': 1.61}
+{'loss': 0.5717, 'grad_norm': 1.4879065764583819, 'learning_rate': 1.9654926328035672e-05, 'epoch': 1.61}
+{'loss': 0.6348, 'grad_norm': 1.8480785729360216, 'learning_rate': 1.9603087333097336e-05, 'epoch': 1.61}
+{'loss': 1.0932, 'grad_norm': 2.2916371051473874, 'learning_rate': 1.955130936032863e-05, 'epoch': 1.61}
+{'loss': 0.6853, 'grad_norm': 1.7559992396398372, 'learning_rate': 1.9499592449029614e-05, 'epoch': 1.61}
+{'loss': 0.763, 'grad_norm': 2.129378909463792, 'learning_rate': 1.9447936638454e-05, 'epoch': 1.61}
+{'loss': 0.6011, 'grad_norm': 1.464570266654828, 'learning_rate': 1.9396341967809185e-05, 'epoch': 1.61}
+{'loss': 0.7329, 'grad_norm': 1.7151027837909592, 'learning_rate': 1.934480847625606e-05, 'epoch': 1.61}
+{'loss': 0.8686, 'grad_norm': 1.8587623410530651, 'learning_rate': 1.9293336202909164e-05, 'epoch': 1.61}
+{'loss': 0.9848, 'grad_norm': 1.67766993925422, 'learning_rate': 1.924192518683652e-05, 'epoch': 1.61}
+{'loss': 0.2995, 'grad_norm': 1.5907099028066398, 'learning_rate': 1.9190575467059656e-05, 'epoch': 1.61}
+{'loss': 0.7711, 'grad_norm': 1.6031525113872445, 'learning_rate': 1.9139287082553626e-05, 'epoch': 1.61}
+{'loss': 0.7207, 'grad_norm': 1.4619319747195247, 'learning_rate': 1.908806007224685e-05, 'epoch': 1.61}
+{'loss': 0.4307, 'grad_norm': 1.4932557074605637, 'learning_rate': 1.9036894475021272e-05, 'epoch': 1.61}
+{'loss': 0.5294, 'grad_norm': 1.5231969557094989, 'learning_rate': 1.8985790329712128e-05, 'epoch': 1.61}
+{'loss': 0.8208, 'grad_norm': 1.9239474039536357, 'learning_rate': 1.8934747675108043e-05, 'epoch': 1.61}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 81%|██████████████████████████████▏      | 3030/3718 [27:36<1:40:13,  8.74s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.7387, 'grad_norm': 1.9239038773002017, 'learning_rate': 1.8883766549950975e-05, 'epoch': 1.61}
+{'loss': 0.898, 'grad_norm': 2.2633523149715646, 'learning_rate': 1.883284699293618e-05, 'epoch': 1.61}
+{'loss': 0.5741, 'grad_norm': 2.0145665782889672, 'learning_rate': 1.878198904271218e-05, 'epoch': 1.62}
+{'loss': 0.8721, 'grad_norm': 1.7849089444887154, 'learning_rate': 1.873119273788073e-05, 'epoch': 1.62}
+{'loss': 0.9646, 'grad_norm': 2.611973290317064, 'learning_rate': 1.868045811699678e-05, 'epoch': 1.62}
+{'loss': 1.1081, 'grad_norm': 1.8749923988468615, 'learning_rate': 1.862978521856854e-05, 'epoch': 1.62}
+{'loss': 0.7601, 'grad_norm': 1.6978040023328786, 'learning_rate': 1.857917408105728e-05, 'epoch': 1.62}
+{'loss': 0.6713, 'grad_norm': 1.7822604956640586, 'learning_rate': 1.8528624742877432e-05, 'epoch': 1.62}
+{'loss': 1.2528, 'grad_norm': 3.0767501636276107, 'learning_rate': 1.847813724239652e-05, 'epoch': 1.62}
+{'loss': 0.822, 'grad_norm': 2.513508061250707, 'learning_rate': 1.842771161793513e-05, 'epoch': 1.62}
+{'loss': 0.7754, 'grad_norm': 2.760249893040974, 'learning_rate': 1.8377347907766883e-05, 'epoch': 1.62}
+{'loss': 0.515, 'grad_norm': 1.6519898326957456, 'learning_rate': 1.8327046150118397e-05, 'epoch': 1.62}
+{'loss': 0.5612, 'grad_norm': 1.6195277184800776, 'learning_rate': 1.8276806383169276e-05, 'epoch': 1.62}
+{'loss': 0.7178, 'grad_norm': 2.2747461692341795, 'learning_rate': 1.8226628645052092e-05, 'epoch': 1.62}
+{'loss': 0.8907, 'grad_norm': 2.198131061171845, 'learning_rate': 1.8176512973852323e-05, 'epoch': 1.62}
+{'loss': 1.3003, 'grad_norm': 2.0067080781858473, 'learning_rate': 1.812645940760831e-05, 'epoch': 1.62}
+{'loss': 0.6699, 'grad_norm': 1.6681597621558653, 'learning_rate': 1.8076467984311298e-05, 'epoch': 1.62}
+{'loss': 0.5852, 'grad_norm': 1.3134875855307167, 'learning_rate': 1.802653874190533e-05, 'epoch': 1.62}
+{'loss': 0.6764, 'grad_norm': 1.7350050750653623, 'learning_rate': 1.7976671718287264e-05, 'epoch': 1.62}
+{'loss': 0.8023, 'grad_norm': 1.9372496208139633, 'learning_rate': 1.792686695130673e-05, 'epoch': 1.62}
+{'loss': 0.3891, 'grad_norm': 1.2066505298545787, 'learning_rate': 1.787712447876615e-05, 'epoch': 1.63}
+{'loss': 0.6617, 'grad_norm': 1.61079331349577, 'learning_rate': 1.7827444338420608e-05, 'epoch': 1.63}
+{'loss': 0.8907, 'grad_norm': 1.7235204431725368, 'learning_rate': 1.7777826567977884e-05, 'epoch': 1.63}
+{'loss': 0.6363, 'grad_norm': 1.5017814583745048, 'learning_rate': 1.7728271205098435e-05, 'epoch': 1.63}
+{'loss': 1.1783, 'grad_norm': 2.4236618718591862, 'learning_rate': 1.7678778287395335e-05, 'epoch': 1.63}
+{'loss': 0.6893, 'grad_norm': 1.481708683270178, 'learning_rate': 1.7629347852434296e-05, 'epoch': 1.63}
+{'loss': 0.8516, 'grad_norm': 1.514352805481919, 'learning_rate': 1.7579979937733547e-05, 'epoch': 1.63}
+{'loss': 0.5455, 'grad_norm': 1.5567011801546589, 'learning_rate': 1.7530674580763895e-05, 'epoch': 1.63}
+{'loss': 0.7583, 'grad_norm': 1.529095556671088, 'learning_rate': 1.7481431818948713e-05, 'epoch': 1.63}
+{'loss': 0.6948, 'grad_norm': 1.8760261441794759, 'learning_rate': 1.743225168966377e-05, 'epoch': 1.63}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 82%|██████████████████████████████▍      | 3060/3718 [32:14<1:35:41,  8.73s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.9601, 'grad_norm': 1.7675304179256817, 'learning_rate': 1.7383134230237375e-05, 'epoch': 1.63}
+{'loss': 1.0922, 'grad_norm': 1.9892587405507722, 'learning_rate': 1.7334079477950206e-05, 'epoch': 1.63}
+{'loss': 0.8473, 'grad_norm': 1.5167425488340212, 'learning_rate': 1.72850874700354e-05, 'epoch': 1.63}
+{'loss': 0.5837, 'grad_norm': 2.0421484579894957, 'learning_rate': 1.7236158243678434e-05, 'epoch': 1.63}
+{'loss': 1.075, 'grad_norm': 2.6055464065613747, 'learning_rate': 1.718729183601716e-05, 'epoch': 1.63}
+{'loss': 1.031, 'grad_norm': 2.1266742069274613, 'learning_rate': 1.7138488284141697e-05, 'epoch': 1.63}
+{'loss': 0.7816, 'grad_norm': 1.66508511919289, 'learning_rate': 1.7089747625094542e-05, 'epoch': 1.63}
+{'loss': 0.7244, 'grad_norm': 1.5495503005931468, 'learning_rate': 1.704106989587041e-05, 'epoch': 1.63}
+{'loss': 0.6196, 'grad_norm': 1.412868868484791, 'learning_rate': 1.6992455133416218e-05, 'epoch': 1.63}
+{'loss': 0.9117, 'grad_norm': 1.734108917631511, 'learning_rate': 1.6943903374631143e-05, 'epoch': 1.64}
+{'loss': 0.5594, 'grad_norm': 1.942010622039978, 'learning_rate': 1.6895414656366514e-05, 'epoch': 1.64}
+{'loss': 0.9563, 'grad_norm': 1.7230769735627023, 'learning_rate': 1.6846989015425794e-05, 'epoch': 1.64}
+{'loss': 0.8948, 'grad_norm': 1.8158219018898165, 'learning_rate': 1.679862648856465e-05, 'epoch': 1.64}
+{'loss': 0.7376, 'grad_norm': 1.5601568132250676, 'learning_rate': 1.675032711249076e-05, 'epoch': 1.64}
+{'loss': 0.5881, 'grad_norm': 1.4692360157889806, 'learning_rate': 1.6702090923863877e-05, 'epoch': 1.64}
+{'loss': 0.6388, 'grad_norm': 1.8405319464344434, 'learning_rate': 1.665391795929585e-05, 'epoch': 1.64}
+{'loss': 0.9101, 'grad_norm': 2.0562637433717494, 'learning_rate': 1.6605808255350508e-05, 'epoch': 1.64}
+{'loss': 0.6744, 'grad_norm': 2.0374491782606245, 'learning_rate': 1.655776184854364e-05, 'epoch': 1.64}
+{'loss': 0.9287, 'grad_norm': 2.1192987378999, 'learning_rate': 1.6509778775343022e-05, 'epoch': 1.64}
+{'loss': 0.7384, 'grad_norm': 1.8461169833704476, 'learning_rate': 1.646185907216835e-05, 'epoch': 1.64}
+{'loss': 0.7639, 'grad_norm': 1.6700210130737805, 'learning_rate': 1.6414002775391224e-05, 'epoch': 1.64}
+{'loss': 0.546, 'grad_norm': 1.4823209210613784, 'learning_rate': 1.636620992133513e-05, 'epoch': 1.64}
+{'loss': 0.7079, 'grad_norm': 1.6644061662446306, 'learning_rate': 1.6318480546275337e-05, 'epoch': 1.64}
+{'loss': 0.7664, 'grad_norm': 1.8597640468563514, 'learning_rate': 1.627081468643905e-05, 'epoch': 1.64}
+{'loss': 0.7995, 'grad_norm': 2.57526754970085, 'learning_rate': 1.622321237800517e-05, 'epoch': 1.64}
+{'loss': 0.7476, 'grad_norm': 1.8978822965494155, 'learning_rate': 1.6175673657104384e-05, 'epoch': 1.64}
+{'loss': 0.5634, 'grad_norm': 1.8095643158738126, 'learning_rate': 1.612819855981912e-05, 'epoch': 1.64}
+{'loss': 0.8432, 'grad_norm': 1.9514230294143657, 'learning_rate': 1.6080787122183528e-05, 'epoch': 1.64}
+{'loss': 1.2489, 'grad_norm': 3.3232187392469363, 'learning_rate': 1.603343938018341e-05, 'epoch': 1.65}
+{'loss': 0.5909, 'grad_norm': 1.596458354403616, 'learning_rate': 1.598615536975624e-05, 'epoch': 1.65}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 83%|██████████████████████████████▊      | 3090/3718 [36:51<1:31:48,  8.77s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.6412, 'grad_norm': 1.8414244294300035, 'learning_rate': 1.5938935126791142e-05, 'epoch': 1.65}
+{'loss': 0.7878, 'grad_norm': 1.8890622716294996, 'learning_rate': 1.589177868712881e-05, 'epoch': 1.65}
+{'loss': 0.81, 'grad_norm': 1.564656334493316, 'learning_rate': 1.58446860865615e-05, 'epoch': 1.65}
+{'loss': 0.6517, 'grad_norm': 1.5482910657549624, 'learning_rate': 1.5797657360833053e-05, 'epoch': 1.65}
+{'loss': 0.8967, 'grad_norm': 2.348588731517978, 'learning_rate': 1.575069254563879e-05, 'epoch': 1.65}
+{'loss': 0.8398, 'grad_norm': 1.9112724671289298, 'learning_rate': 1.5703791676625533e-05, 'epoch': 1.65}
+{'loss': 0.7188, 'grad_norm': 1.7498206588282852, 'learning_rate': 1.5656954789391596e-05, 'epoch': 1.65}
+{'loss': 0.836, 'grad_norm': 1.920606526699619, 'learning_rate': 1.5610181919486665e-05, 'epoch': 1.65}
+{'loss': 0.5761, 'grad_norm': 1.6036741562039811, 'learning_rate': 1.5563473102411942e-05, 'epoch': 1.65}
+{'loss': 1.1005, 'grad_norm': 1.7738212442667338, 'learning_rate': 1.5516828373619918e-05, 'epoch': 1.65}
+{'loss': 0.6863, 'grad_norm': 2.09570193424765, 'learning_rate': 1.547024776851447e-05, 'epoch': 1.65}
+{'loss': 0.9612, 'grad_norm': 1.740096831520867, 'learning_rate': 1.5423731322450797e-05, 'epoch': 1.65}
+{'loss': 0.5635, 'grad_norm': 1.4653436033258738, 'learning_rate': 1.537727907073543e-05, 'epoch': 1.65}
+{'loss': 0.793, 'grad_norm': 1.7146492957769164, 'learning_rate': 1.533089104862615e-05, 'epoch': 1.65}
+{'loss': 0.5536, 'grad_norm': 1.7444053213431885, 'learning_rate': 1.5284567291331987e-05, 'epoch': 1.65}
+{'loss': 0.7719, 'grad_norm': 1.5781298436385112, 'learning_rate': 1.5238307834013165e-05, 'epoch': 1.65}
+{'loss': 0.9067, 'grad_norm': 1.9216415786497358, 'learning_rate': 1.5192112711781214e-05, 'epoch': 1.66}
+{'loss': 0.7267, 'grad_norm': 1.549394502550047, 'learning_rate': 1.5145981959698707e-05, 'epoch': 1.66}
+{'loss': 0.7219, 'grad_norm': 1.8132501072537988, 'learning_rate': 1.5099915612779415e-05, 'epoch': 1.66}
+{'loss': 0.6965, 'grad_norm': 1.8976747469210724, 'learning_rate': 1.5053913705988222e-05, 'epoch': 1.66}
+{'loss': 0.87, 'grad_norm': 1.8738132168777402, 'learning_rate': 1.5007976274241098e-05, 'epoch': 1.66}
+{'loss': 0.6674, 'grad_norm': 1.5318570300842171, 'learning_rate': 1.4962103352405076e-05, 'epoch': 1.66}
+{'loss': 0.7737, 'grad_norm': 1.9438311127417893, 'learning_rate': 1.4916294975298216e-05, 'epoch': 1.66}
+{'loss': 0.8193, 'grad_norm': 1.7705970173980992, 'learning_rate': 1.4870551177689585e-05, 'epoch': 1.66}
+{'loss': 0.8913, 'grad_norm': 1.8244632274103325, 'learning_rate': 1.4824871994299283e-05, 'epoch': 1.66}
+{'loss': 1.1714, 'grad_norm': 2.3388240469118178, 'learning_rate': 1.4779257459798302e-05, 'epoch': 1.66}
+{'loss': 0.6909, 'grad_norm': 1.9231335527651243, 'learning_rate': 1.47337076088086e-05, 'epoch': 1.66}
+{'loss': 0.7239, 'grad_norm': 2.1018903220502985, 'learning_rate': 1.4688222475903035e-05, 'epoch': 1.66}
+{'loss': 0.8315, 'grad_norm': 1.8656344551957402, 'learning_rate': 1.4642802095605324e-05, 'epoch': 1.66}
+{'loss': 0.4726, 'grad_norm': 1.4971720951510132, 'learning_rate': 1.4597446502390067e-05, 'epoch': 1.66}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 84%|███████████████████████████████      | 3120/3718 [41:27<1:26:07,  8.64s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.7414, 'grad_norm': 1.7009503675523898, 'learning_rate': 1.4552155730682648e-05, 'epoch': 1.66}
+{'loss': 0.6019, 'grad_norm': 1.6792447277800695, 'learning_rate': 1.4506929814859317e-05, 'epoch': 1.66}
+{'loss': 0.7177, 'grad_norm': 1.9552256204345253, 'learning_rate': 1.4461768789247032e-05, 'epoch': 1.66}
+{'loss': 0.6392, 'grad_norm': 1.6188672326019935, 'learning_rate': 1.4416672688123534e-05, 'epoch': 1.66}
+{'loss': 0.7339, 'grad_norm': 1.7712625334637224, 'learning_rate': 1.4371641545717273e-05, 'epoch': 1.66}
+{'loss': 0.756, 'grad_norm': 2.2127072261554686, 'learning_rate': 1.4326675396207389e-05, 'epoch': 1.67}
+{'loss': 0.6322, 'grad_norm': 1.5079881842613234, 'learning_rate': 1.4281774273723713e-05, 'epoch': 1.67}
+{'loss': 0.6981, 'grad_norm': 1.615079524840753, 'learning_rate': 1.4236938212346706e-05, 'epoch': 1.67}
+{'loss': 0.7341, 'grad_norm': 1.686923222619165, 'learning_rate': 1.4192167246107412e-05, 'epoch': 1.67}
+{'loss': 0.8215, 'grad_norm': 2.0328203870510895, 'learning_rate': 1.4147461408987561e-05, 'epoch': 1.67}
+{'loss': 0.5372, 'grad_norm': 1.603501064963304, 'learning_rate': 1.4102820734919353e-05, 'epoch': 1.67}
+{'loss': 0.7736, 'grad_norm': 1.7977862726594416, 'learning_rate': 1.4058245257785585e-05, 'epoch': 1.67}
+{'loss': 0.6986, 'grad_norm': 1.9655050704240062, 'learning_rate': 1.4013735011419537e-05, 'epoch': 1.67}
+{'loss': 0.9069, 'grad_norm': 2.1338019369737222, 'learning_rate': 1.3969290029605009e-05, 'epoch': 1.67}
+{'loss': 0.6672, 'grad_norm': 1.5926734819468533, 'learning_rate': 1.3924910346076226e-05, 'epoch': 1.67}
+{'loss': 0.7508, 'grad_norm': 2.2992074018616693, 'learning_rate': 1.3880595994517875e-05, 'epoch': 1.67}
+{'loss': 0.6512, 'grad_norm': 1.8829626653716274, 'learning_rate': 1.3836347008565043e-05, 'epoch': 1.67}
+{'loss': 0.6992, 'grad_norm': 1.6323264950843015, 'learning_rate': 1.379216342180325e-05, 'epoch': 1.67}
+{'loss': 0.7404, 'grad_norm': 1.8452183771169501, 'learning_rate': 1.3748045267768307e-05, 'epoch': 1.67}
+{'loss': 0.5928, 'grad_norm': 1.6498731027728948, 'learning_rate': 1.3703992579946413e-05, 'epoch': 1.67}
+{'loss': 0.921, 'grad_norm': 1.7717674223024602, 'learning_rate': 1.3660005391774044e-05, 'epoch': 1.67}
+{'loss': 0.7215, 'grad_norm': 1.6886189032523784, 'learning_rate': 1.3616083736637986e-05, 'epoch': 1.67}
+{'loss': 0.7787, 'grad_norm': 1.8242626213160646, 'learning_rate': 1.3572227647875258e-05, 'epoch': 1.67}
+{'loss': 0.8382, 'grad_norm': 1.7847994591113505, 'learning_rate': 1.3528437158773133e-05, 'epoch': 1.68}
+{'loss': 0.6979, 'grad_norm': 1.5954675455151854, 'learning_rate': 1.3484712302569103e-05, 'epoch': 1.68}
+{'loss': 0.9008, 'grad_norm': 2.0824784856127754, 'learning_rate': 1.344105311245083e-05, 'epoch': 1.68}
+{'loss': 0.7751, 'grad_norm': 1.7670451084690697, 'learning_rate': 1.339745962155613e-05, 'epoch': 1.68}
+{'loss': 0.6252, 'grad_norm': 1.9741282914984892, 'learning_rate': 1.3353931862972958e-05, 'epoch': 1.68}
+{'loss': 0.7199, 'grad_norm': 1.8521814481406935, 'learning_rate': 1.3310469869739372e-05, 'epoch': 1.68}
+{'loss': 0.6808, 'grad_norm': 1.884603163110451, 'learning_rate': 1.3267073674843522e-05, 'epoch': 1.68}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 85%|███████████████████████████████▎     | 3150/3718 [46:06<1:23:23,  8.81s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 1.1547, 'grad_norm': 2.2937894647900747, 'learning_rate': 1.3223743311223613e-05, 'epoch': 1.68}
+{'loss': 0.6674, 'grad_norm': 1.5066596318134489, 'learning_rate': 1.318047881176786e-05, 'epoch': 1.68}
+{'loss': 0.8655, 'grad_norm': 1.6527499471962332, 'learning_rate': 1.3137280209314563e-05, 'epoch': 1.68}
+{'loss': 1.1132, 'grad_norm': 1.817297306730278, 'learning_rate': 1.3094147536651912e-05, 'epoch': 1.68}
+{'loss': 0.536, 'grad_norm': 1.8465833290540243, 'learning_rate': 1.3051080826518102e-05, 'epoch': 1.68}
+{'loss': 0.8444, 'grad_norm': 1.8458282537068686, 'learning_rate': 1.3008080111601262e-05, 'epoch': 1.68}
+{'loss': 0.6404, 'grad_norm': 1.7944147140684075, 'learning_rate': 1.2965145424539405e-05, 'epoch': 1.68}
+{'loss': 0.6395, 'grad_norm': 1.9863026961743235, 'learning_rate': 1.2922276797920474e-05, 'epoch': 1.68}
+{'loss': 0.7895, 'grad_norm': 1.940826647446969, 'learning_rate': 1.2879474264282221e-05, 'epoch': 1.68}
+{'loss': 0.8272, 'grad_norm': 1.8028033299159991, 'learning_rate': 1.2836737856112246e-05, 'epoch': 1.68}
+{'loss': 0.8784, 'grad_norm': 2.1185220792060777, 'learning_rate': 1.2794067605847993e-05, 'epoch': 1.68}
+{'loss': 0.7345, 'grad_norm': 1.795523457748423, 'learning_rate': 1.2751463545876673e-05, 'epoch': 1.68}
+{'loss': 0.9429, 'grad_norm': 2.4516895177439437, 'learning_rate': 1.2708925708535225e-05, 'epoch': 1.69}
+{'loss': 0.6118, 'grad_norm': 1.6406811054677244, 'learning_rate': 1.2666454126110372e-05, 'epoch': 1.69}
+{'loss': 0.9253, 'grad_norm': 2.318254562538029, 'learning_rate': 1.2624048830838508e-05, 'epoch': 1.69}
+{'loss': 0.7665, 'grad_norm': 1.6458963697655729, 'learning_rate': 1.2581709854905744e-05, 'epoch': 1.69}
+{'loss': 0.5812, 'grad_norm': 1.6525147159715345, 'learning_rate': 1.2539437230447826e-05, 'epoch': 1.69}
+{'loss': 1.0027, 'grad_norm': 1.9291275906164747, 'learning_rate': 1.2497230989550191e-05, 'epoch': 1.69}
+{'loss': 0.9073, 'grad_norm': 2.0954736935219826, 'learning_rate': 1.2455091164247834e-05, 'epoch': 1.69}
+{'loss': 0.6664, 'grad_norm': 1.5610505882523766, 'learning_rate': 1.241301778652536e-05, 'epoch': 1.69}
+{'loss': 0.4927, 'grad_norm': 1.6435405647150643, 'learning_rate': 1.2371010888316958e-05, 'epoch': 1.69}
+{'loss': 0.573, 'grad_norm': 1.504745156707567, 'learning_rate': 1.2329070501506312e-05, 'epoch': 1.69}
+{'loss': 0.7877, 'grad_norm': 1.9658496273603983, 'learning_rate': 1.228719665792667e-05, 'epoch': 1.69}
+{'loss': 0.8281, 'grad_norm': 1.774370703720693, 'learning_rate': 1.224538938936075e-05, 'epoch': 1.69}
+{'loss': 0.5237, 'grad_norm': 1.9755048913923303, 'learning_rate': 1.2203648727540728e-05, 'epoch': 1.69}
+{'loss': 0.8083, 'grad_norm': 1.9599642727492206, 'learning_rate': 1.2161974704148271e-05, 'epoch': 1.69}
+{'loss': 0.5899, 'grad_norm': 1.9579552474615403, 'learning_rate': 1.2120367350814421e-05, 'epoch': 1.69}
+{'loss': 0.5979, 'grad_norm': 1.6318774281405595, 'learning_rate': 1.2078826699119639e-05, 'epoch': 1.69}
+{'loss': 0.7894, 'grad_norm': 1.4957881728454347, 'learning_rate': 1.2037352780593748e-05, 'epoch': 1.69}
+{'loss': 0.7314, 'grad_norm': 2.137275086121258, 'learning_rate': 1.199594562671591e-05, 'epoch': 1.69}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 86%|███████████████████████████████▋     | 3180/3718 [50:45<1:17:47,  8.68s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.9003, 'grad_norm': 1.7875000421639298, 'learning_rate': 1.1954605268914632e-05, 'epoch': 1.69}
+{'loss': 0.7448, 'grad_norm': 1.584804969344802, 'learning_rate': 1.1913331738567723e-05, 'epoch': 1.7}
+{'loss': 0.7055, 'grad_norm': 1.9529916816467268, 'learning_rate': 1.1872125067002238e-05, 'epoch': 1.7}
+{'loss': 0.4777, 'grad_norm': 1.561612807090895, 'learning_rate': 1.1830985285494545e-05, 'epoch': 1.7}
+{'loss': 1.239, 'grad_norm': 2.2470777930488035, 'learning_rate': 1.178991242527019e-05, 'epoch': 1.7}
+{'loss': 0.811, 'grad_norm': 1.762915871634051, 'learning_rate': 1.1748906517503932e-05, 'epoch': 1.7}
+{'loss': 0.6988, 'grad_norm': 1.6955375286851437, 'learning_rate': 1.1707967593319724e-05, 'epoch': 1.7}
+{'loss': 1.0156, 'grad_norm': 2.0252306072182154, 'learning_rate': 1.1667095683790686e-05, 'epoch': 1.7}
+{'loss': 0.8553, 'grad_norm': 1.7634993305807556, 'learning_rate': 1.1626290819939045e-05, 'epoch': 1.7}
+{'loss': 0.9485, 'grad_norm': 2.4622383294360706, 'learning_rate': 1.158555303273614e-05, 'epoch': 1.7}
+{'loss': 0.756, 'grad_norm': 1.762475607595081, 'learning_rate': 1.154488235310246e-05, 'epoch': 1.7}
+{'loss': 0.7938, 'grad_norm': 1.5313503054638888, 'learning_rate': 1.1504278811907488e-05, 'epoch': 1.7}
+{'loss': 0.9025, 'grad_norm': 2.1688197303898105, 'learning_rate': 1.1463742439969772e-05, 'epoch': 1.7}
+{'loss': 0.6961, 'grad_norm': 2.2161536011645286, 'learning_rate': 1.1423273268056889e-05, 'epoch': 1.7}
+{'loss': 0.8382, 'grad_norm': 1.9192493720737018, 'learning_rate': 1.1382871326885381e-05, 'epoch': 1.7}
+{'loss': 0.8174, 'grad_norm': 1.7183212964084564, 'learning_rate': 1.1342536647120794e-05, 'epoch': 1.7}
+{'loss': 0.8454, 'grad_norm': 1.5403779149960528, 'learning_rate': 1.1302269259377606e-05, 'epoch': 1.7}
+{'loss': 0.5549, 'grad_norm': 1.39317079741996, 'learning_rate': 1.1262069194219205e-05, 'epoch': 1.7}
+{'loss': 0.8647, 'grad_norm': 2.185174292857448, 'learning_rate': 1.1221936482157923e-05, 'epoch': 1.7}
+{'loss': 0.9232, 'grad_norm': 1.9186243328724109, 'learning_rate': 1.1181871153654944e-05, 'epoch': 1.71}
+{'loss': 0.5643, 'grad_norm': 1.5940836894654447, 'learning_rate': 1.1141873239120281e-05, 'epoch': 1.71}
+{'loss': 0.5001, 'grad_norm': 1.7145383642794643, 'learning_rate': 1.1101942768912833e-05, 'epoch': 1.71}
+{'loss': 0.5182, 'grad_norm': 1.5643085432469577, 'learning_rate': 1.1062079773340272e-05, 'epoch': 1.71}
+{'loss': 0.4874, 'grad_norm': 1.7493872852511254, 'learning_rate': 1.1022284282659056e-05, 'epoch': 1.71}
+{'loss': 0.7545, 'grad_norm': 1.8233992046977971, 'learning_rate': 1.0982556327074412e-05, 'epoch': 1.71}
+{'loss': 1.0105, 'grad_norm': 2.071741731661071, 'learning_rate': 1.0942895936740305e-05, 'epoch': 1.71}
+{'loss': 0.5403, 'grad_norm': 1.7084300549897569, 'learning_rate': 1.0903303141759447e-05, 'epoch': 1.71}
+{'loss': 0.7131, 'grad_norm': 1.5812453347113806, 'learning_rate': 1.0863777972183208e-05, 'epoch': 1.71}
+{'loss': 0.527, 'grad_norm': 1.608583528378852, 'learning_rate': 1.0824320458011638e-05, 'epoch': 1.71}
+{'loss': 0.7606, 'grad_norm': 2.5250550294549616, 'learning_rate': 1.0784930629193435e-05, 'epoch': 1.71}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 86%|███████████████████████████████▉     | 3210/3718 [55:19<1:12:35,  8.57s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.5686, 'grad_norm': 1.7712377261402013, 'learning_rate': 1.0745608515625927e-05, 'epoch': 1.71}
+{'loss': 0.9028, 'grad_norm': 2.21073627765443, 'learning_rate': 1.0706354147155051e-05, 'epoch': 1.71}
+{'loss': 0.7959, 'grad_norm': 1.6318012009327116, 'learning_rate': 1.0667167553575298e-05, 'epoch': 1.71}
+{'loss': 1.2101, 'grad_norm': 2.2558894870586084, 'learning_rate': 1.062804876462976e-05, 'epoch': 1.71}
+{'loss': 0.9941, 'grad_norm': 2.0173098916735555, 'learning_rate': 1.0588997810010048e-05, 'epoch': 1.71}
+{'loss': 0.7593, 'grad_norm': 1.8208545016144524, 'learning_rate': 1.055001471935626e-05, 'epoch': 1.71}
+{'loss': 1.1409, 'grad_norm': 2.5763954645165414, 'learning_rate': 1.0511099522257018e-05, 'epoch': 1.71}
+{'loss': 0.7222, 'grad_norm': 1.792901753231228, 'learning_rate': 1.0472252248249392e-05, 'epoch': 1.71}
+{'loss': 0.5435, 'grad_norm': 2.0571651396536526, 'learning_rate': 1.0433472926818898e-05, 'epoch': 1.72}
+{'loss': 0.7563, 'grad_norm': 1.964016898495297, 'learning_rate': 1.0394761587399493e-05, 'epoch': 1.72}
+{'loss': 0.6269, 'grad_norm': 1.581965703244384, 'learning_rate': 1.0356118259373504e-05, 'epoch': 1.72}
+{'loss': 0.4505, 'grad_norm': 1.704387482096591, 'learning_rate': 1.031754297207168e-05, 'epoch': 1.72}
+{'loss': 0.7275, 'grad_norm': 1.7342513096018095, 'learning_rate': 1.0279035754773092e-05, 'epoch': 1.72}
+{'loss': 1.2268, 'grad_norm': 2.1553395897200764, 'learning_rate': 1.0240596636705158e-05, 'epoch': 1.72}
+{'loss': 0.5932, 'grad_norm': 2.1256593688968217, 'learning_rate': 1.0202225647043607e-05, 'epoch': 1.72}
+{'loss': 0.7273, 'grad_norm': 1.6479330154938328, 'learning_rate': 1.0163922814912441e-05, 'epoch': 1.72}
+{'loss': 0.6892, 'grad_norm': 2.141904247818154, 'learning_rate': 1.0125688169383963e-05, 'epoch': 1.72}
+{'loss': 0.8107, 'grad_norm': 1.5491658369357513, 'learning_rate': 1.008752173947869e-05, 'epoch': 1.72}
+{'loss': 0.7338, 'grad_norm': 2.1434344700926444, 'learning_rate': 1.0049423554165372e-05, 'epoch': 1.72}
+{'loss': 0.709, 'grad_norm': 1.735529692901448, 'learning_rate': 1.0011393642360977e-05, 'epoch': 1.72}
+{'loss': 0.6233, 'grad_norm': 3.004941422919088, 'learning_rate': 9.973432032930641e-06, 'epoch': 1.72}
+{'loss': 1.0442, 'grad_norm': 2.0413784253077822, 'learning_rate': 9.935538754687656e-06, 'epoch': 1.72}
+{'loss': 0.6487, 'grad_norm': 2.051804951926779, 'learning_rate': 9.89771383639344e-06, 'epoch': 1.72}
+{'loss': 1.036, 'grad_norm': 2.211386765572479, 'learning_rate': 9.859957306757538e-06, 'epoch': 1.72}
+{'loss': 0.6447, 'grad_norm': 1.7573414741454936, 'learning_rate': 9.822269194437595e-06, 'epoch': 1.72}
+{'loss': 0.4112, 'grad_norm': 1.547653483008818, 'learning_rate': 9.784649528039291e-06, 'epoch': 1.72}
+{'loss': 0.8986, 'grad_norm': 1.7897632361174418, 'learning_rate': 9.747098336116412e-06, 'epoch': 1.73}
+{'loss': 0.911, 'grad_norm': 1.9134665214224094, 'learning_rate': 9.709615647170733e-06, 'epoch': 1.73}
+{'loss': 0.7403, 'grad_norm': 1.6033233029247862, 'learning_rate': 9.672201489652022e-06, 'epoch': 1.73}
+{'loss': 1.0349, 'grad_norm': 2.58624979204388, 'learning_rate': 9.63485589195806e-06, 'epoch': 1.73}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 87%|████████████████████████████████▏    | 3240/3718 [59:57<1:09:03,  8.67s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.9835, 'grad_norm': 1.9279527927280962, 'learning_rate': 9.597578882434589e-06, 'epoch': 1.73}
+{'loss': 0.9699, 'grad_norm': 2.2735530570811013, 'learning_rate': 9.56037048937527e-06, 'epoch': 1.73}
+{'loss': 0.9034, 'grad_norm': 2.111479619322058, 'learning_rate': 9.523230741021694e-06, 'epoch': 1.73}
+{'loss': 0.8114, 'grad_norm': 2.179546627530525, 'learning_rate': 9.486159665563343e-06, 'epoch': 1.73}
+{'loss': 1.1009, 'grad_norm': 1.912790326803053, 'learning_rate': 9.449157291137623e-06, 'epoch': 1.73}
+{'loss': 0.6347, 'grad_norm': 1.9266045983900966, 'learning_rate': 9.41222364582972e-06, 'epoch': 1.73}
+{'loss': 0.9316, 'grad_norm': 1.9864890898634318, 'learning_rate': 9.375358757672703e-06, 'epoch': 1.73}
+{'loss': 0.7119, 'grad_norm': 1.664205760445064, 'learning_rate': 9.338562654647443e-06, 'epoch': 1.73}
+{'loss': 0.6607, 'grad_norm': 1.4856250279954615, 'learning_rate': 9.301835364682599e-06, 'epoch': 1.73}
+{'loss': 0.8529, 'grad_norm': 1.6245106116633399, 'learning_rate': 9.265176915654595e-06, 'epoch': 1.73}
+{'loss': 0.7595, 'grad_norm': 1.7718162414217506, 'learning_rate': 9.228587335387606e-06, 'epoch': 1.73}
+{'loss': 0.5253, 'grad_norm': 1.704558375187945, 'learning_rate': 9.19206665165353e-06, 'epoch': 1.73}
+{'loss': 1.0024, 'grad_norm': 1.9149676868509233, 'learning_rate': 9.155614892172027e-06, 'epoch': 1.73}
+{'loss': 0.6239, 'grad_norm': 1.8643965864996905, 'learning_rate': 9.119232084610363e-06, 'epoch': 1.73}
+{'loss': 0.9738, 'grad_norm': 1.851722021910545, 'learning_rate': 9.082918256583495e-06, 'epoch': 1.73}
+{'loss': 0.6154, 'grad_norm': 1.582416535630544, 'learning_rate': 9.046673435654051e-06, 'epoch': 1.74}
+{'loss': 0.8868, 'grad_norm': 2.1162579464275306, 'learning_rate': 9.01049764933225e-06, 'epoch': 1.74}
+{'loss': 0.5078, 'grad_norm': 1.6434936939512144, 'learning_rate': 8.974390925075926e-06, 'epoch': 1.74}
+{'loss': 0.3722, 'grad_norm': 1.4000740944865318, 'learning_rate': 8.93835329029048e-06, 'epoch': 1.74}
+{'loss': 0.6456, 'grad_norm': 1.7873623746171328, 'learning_rate': 8.90238477232891e-06, 'epoch': 1.74}
+{'loss': 0.416, 'grad_norm': 1.449231059543249, 'learning_rate': 8.86648539849172e-06, 'epoch': 1.74}
+{'loss': 0.4975, 'grad_norm': 1.4973723349531645, 'learning_rate': 8.830655196026938e-06, 'epoch': 1.74}
+{'loss': 1.2659, 'grad_norm': 2.0753649463116677, 'learning_rate': 8.79489419213011e-06, 'epoch': 1.74}
+{'loss': 0.9073, 'grad_norm': 1.8572308747872797, 'learning_rate': 8.759202413944223e-06, 'epoch': 1.74}
+{'loss': 1.0066, 'grad_norm': 2.131159871031368, 'learning_rate': 8.723579888559752e-06, 'epoch': 1.74}
+{'loss': 0.6368, 'grad_norm': 1.6142725158717208, 'learning_rate': 8.68802664301459e-06, 'epoch': 1.74}
+{'loss': 0.7217, 'grad_norm': 1.979391410842914, 'learning_rate': 8.652542704294054e-06, 'epoch': 1.74}
+{'loss': 0.9294, 'grad_norm': 1.870899658323681, 'learning_rate': 8.617128099330874e-06, 'epoch': 1.74}
+{'loss': 0.8579, 'grad_norm': 1.7173113542074983, 'learning_rate': 8.581782855005127e-06, 'epoch': 1.74}
+{'loss': 0.6472, 'grad_norm': 1.7092069150594968, 'learning_rate': 8.546506998144255e-06, 'epoch': 1.74}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 88%|██████████████████████████████▊    | 3270/3718 [1:04:32<1:04:49,  8.68s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.5962, 'grad_norm': 1.6605183176532143, 'learning_rate': 8.51130055552304e-06, 'epoch': 1.74}
+{'loss': 0.9321, 'grad_norm': 1.8784652028302395, 'learning_rate': 8.476163553863559e-06, 'epoch': 1.74}
+{'loss': 0.7098, 'grad_norm': 1.4690739950567282, 'learning_rate': 8.441096019835205e-06, 'epoch': 1.74}
+{'loss': 0.7358, 'grad_norm': 3.155673689160216, 'learning_rate': 8.406097980054627e-06, 'epoch': 1.75}
+{'loss': 0.5825, 'grad_norm': 1.831312511040478, 'learning_rate': 8.371169461085726e-06, 'epoch': 1.75}
+{'loss': 0.6938, 'grad_norm': 1.6803574904839877, 'learning_rate': 8.33631048943967e-06, 'epoch': 1.75}
+{'loss': 0.7318, 'grad_norm': 1.6721312333158767, 'learning_rate': 8.301521091574805e-06, 'epoch': 1.75}
+{'loss': 0.5638, 'grad_norm': 1.5155841188070969, 'learning_rate': 8.266801293896675e-06, 'epoch': 1.75}
+{'loss': 0.7185, 'grad_norm': 1.6989248077481793, 'learning_rate': 8.232151122757991e-06, 'epoch': 1.75}
+{'loss': 0.6699, 'grad_norm': 1.8417806385542055, 'learning_rate': 8.19757060445865e-06, 'epoch': 1.75}
+{'loss': 0.8143, 'grad_norm': 1.7730047794159145, 'learning_rate': 8.163059765245639e-06, 'epoch': 1.75}
+{'loss': 0.5211, 'grad_norm': 1.3313149329946294, 'learning_rate': 8.128618631313068e-06, 'epoch': 1.75}
+{'loss': 0.769, 'grad_norm': 1.4391535717511466, 'learning_rate': 8.094247228802176e-06, 'epoch': 1.75}
+{'loss': 0.9928, 'grad_norm': 1.7765584698966526, 'learning_rate': 8.059945583801232e-06, 'epoch': 1.75}
+{'loss': 0.4893, 'grad_norm': 1.2718035045874418, 'learning_rate': 8.025713722345585e-06, 'epoch': 1.75}
+{'loss': 0.6792, 'grad_norm': 2.0237692091373676, 'learning_rate': 7.991551670417597e-06, 'epoch': 1.75}
+{'loss': 0.7205, 'grad_norm': 1.8147303996713129, 'learning_rate': 7.957459453946648e-06, 'epoch': 1.75}
+{'loss': 1.0671, 'grad_norm': 2.47065188896658, 'learning_rate': 7.923437098809128e-06, 'epoch': 1.75}
+{'loss': 0.5987, 'grad_norm': 1.4219166349570727, 'learning_rate': 7.889484630828381e-06, 'epoch': 1.75}
+{'loss': 0.8313, 'grad_norm': 1.6865861239338413, 'learning_rate': 7.855602075774716e-06, 'epoch': 1.75}
+{'loss': 0.8591, 'grad_norm': 2.318625551009483, 'learning_rate': 7.821789459365392e-06, 'epoch': 1.75}
+{'loss': 1.0268, 'grad_norm': 1.931286682094442, 'learning_rate': 7.78804680726457e-06, 'epoch': 1.75}
+{'loss': 0.624, 'grad_norm': 1.801102477538307, 'learning_rate': 7.754374145083287e-06, 'epoch': 1.76}
+{'loss': 0.6287, 'grad_norm': 1.616022552306498, 'learning_rate': 7.720771498379486e-06, 'epoch': 1.76}
+{'loss': 0.9455, 'grad_norm': 1.6024400664453495, 'learning_rate': 7.687238892657956e-06, 'epoch': 1.76}
+{'loss': 0.7138, 'grad_norm': 1.6812261586185173, 'learning_rate': 7.653776353370323e-06, 'epoch': 1.76}
+{'loss': 0.9769, 'grad_norm': 2.2322759935054326, 'learning_rate': 7.620383905915041e-06, 'epoch': 1.76}
+{'loss': 0.7501, 'grad_norm': 1.8033765848073433, 'learning_rate': 7.587061575637333e-06, 'epoch': 1.76}
+{'loss': 0.6649, 'grad_norm': 1.938661114367959, 'learning_rate': 7.553809387829258e-06, 'epoch': 1.76}
+{'loss': 0.7042, 'grad_norm': 1.6600519364297586, 'learning_rate': 7.520627367729605e-06, 'epoch': 1.76}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 89%|███████████████████████████████    | 3300/3718 [1:09:11<1:00:33,  8.69s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.6012, 'grad_norm': 1.8296050064296996, 'learning_rate': 7.487515540523881e-06, 'epoch': 1.76}
+{'loss': 0.928, 'grad_norm': 1.7540276503476826, 'learning_rate': 7.454473931344353e-06, 'epoch': 1.76}
+{'loss': 0.6012, 'grad_norm': 1.6102841905048528, 'learning_rate': 7.421502565269966e-06, 'epoch': 1.76}
+{'loss': 0.6108, 'grad_norm': 1.8829862751829218, 'learning_rate': 7.388601467326372e-06, 'epoch': 1.76}
+{'loss': 0.9003, 'grad_norm': 2.1585199594857127, 'learning_rate': 7.355770662485861e-06, 'epoch': 1.76}
+{'loss': 0.769, 'grad_norm': 1.8386033692686445, 'learning_rate': 7.3230101756674215e-06, 'epoch': 1.76}
+{'loss': 0.9816, 'grad_norm': 1.6345563855626943, 'learning_rate': 7.2903200317366085e-06, 'epoch': 1.76}
+{'loss': 0.5748, 'grad_norm': 1.628901528927787, 'learning_rate': 7.2577002555056174e-06, 'epoch': 1.76}
+{'loss': 0.8313, 'grad_norm': 1.7210088692163537, 'learning_rate': 7.2251508717332214e-06, 'epoch': 1.76}
+{'loss': 0.7616, 'grad_norm': 1.586740558218177, 'learning_rate': 7.192671905124792e-06, 'epoch': 1.76}
+{'loss': 0.6705, 'grad_norm': 1.8818808128909605, 'learning_rate': 7.16026338033221e-06, 'epoch': 1.76}
+{'loss': 0.5763, 'grad_norm': 2.1474845087514365, 'learning_rate': 7.1279253219539326e-06, 'epoch': 1.77}
+{'loss': 0.9323, 'grad_norm': 1.6949915775638822, 'learning_rate': 7.09565775453489e-06, 'epoch': 1.77}
+{'loss': 0.8257, 'grad_norm': 2.1020402013857113, 'learning_rate': 7.06346070256656e-06, 'epoch': 1.77}
+{'loss': 0.7173, 'grad_norm': 2.0269676113990736, 'learning_rate': 7.03133419048686e-06, 'epoch': 1.77}
+{'loss': 0.6341, 'grad_norm': 1.6928781763979919, 'learning_rate': 6.999278242680185e-06, 'epoch': 1.77}
+{'loss': 0.788, 'grad_norm': 1.8781237881687063, 'learning_rate': 6.9672928834773495e-06, 'epoch': 1.77}
+{'loss': 0.7437, 'grad_norm': 1.6738319423026466, 'learning_rate': 6.935378137155601e-06, 'epoch': 1.77}
+{'loss': 0.5414, 'grad_norm': 2.6895941288151692, 'learning_rate': 6.903534027938607e-06, 'epoch': 1.77}
+{'loss': 1.0441, 'grad_norm': 2.2383245546267743, 'learning_rate': 6.871760579996412e-06, 'epoch': 1.77}
+{'loss': 0.5616, 'grad_norm': 1.8426551569133345, 'learning_rate': 6.8400578174454e-06, 'epoch': 1.77}
+{'loss': 0.6264, 'grad_norm': 1.542822906815202, 'learning_rate': 6.808425764348347e-06, 'epoch': 1.77}
+{'loss': 0.4643, 'grad_norm': 1.3255716704922345, 'learning_rate': 6.776864444714348e-06, 'epoch': 1.77}
+{'loss': 1.071, 'grad_norm': 2.2488130852368644, 'learning_rate': 6.745373882498784e-06, 'epoch': 1.77}
+{'loss': 0.8334, 'grad_norm': 1.8595700591339477, 'learning_rate': 6.713954101603359e-06, 'epoch': 1.77}
+{'loss': 0.6672, 'grad_norm': 1.9534896582405394, 'learning_rate': 6.6826051258760515e-06, 'epoch': 1.77}
+{'loss': 0.8171, 'grad_norm': 2.0885250564907993, 'learning_rate': 6.651326979111072e-06, 'epoch': 1.77}
+{'loss': 0.9559, 'grad_norm': 2.9868048919824903, 'learning_rate': 6.620119685048875e-06, 'epoch': 1.77}
+{'loss': 0.5604, 'grad_norm': 1.5538690150858538, 'learning_rate': 6.588983267376203e-06, 'epoch': 1.77}
+{'loss': 0.8386, 'grad_norm': 1.9595691984806176, 'learning_rate': 6.557917749725906e-06, 'epoch': 1.78}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 90%|█████████████████████████████████▏   | 3330/3718 [1:13:46<56:39,  8.76s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.8773, 'grad_norm': 1.972570173881837, 'learning_rate': 6.52692315567709e-06, 'epoch': 1.78}
+{'loss': 1.0741, 'grad_norm': 2.1211935640345176, 'learning_rate': 6.495999508754991e-06, 'epoch': 1.78}
+{'loss': 1.1054, 'grad_norm': 2.0945902575426993, 'learning_rate': 6.4651468324310125e-06, 'epoch': 1.78}
+{'loss': 0.9956, 'grad_norm': 2.4870060353254755, 'learning_rate': 6.434365150122679e-06, 'epoch': 1.78}
+{'loss': 0.7346, 'grad_norm': 2.264894770675844, 'learning_rate': 6.403654485193645e-06, 'epoch': 1.78}
+{'loss': 0.7277, 'grad_norm': 2.0705049226102648, 'learning_rate': 6.373014860953641e-06, 'epoch': 1.78}
+{'loss': 0.4485, 'grad_norm': 1.50225893803084, 'learning_rate': 6.342446300658511e-06, 'epoch': 1.78}
+{'loss': 0.6996, 'grad_norm': 1.7280682648340684, 'learning_rate': 6.311948827510128e-06, 'epoch': 1.78}
+{'loss': 0.8553, 'grad_norm': 1.855748117069408, 'learning_rate': 6.281522464656419e-06, 'epoch': 1.78}
+{'loss': 0.5894, 'grad_norm': 1.745771613329194, 'learning_rate': 6.251167235191336e-06, 'epoch': 1.78}
+{'loss': 0.6371, 'grad_norm': 1.7337932467385209, 'learning_rate': 6.220883162154856e-06, 'epoch': 1.78}
+{'loss': 0.6937, 'grad_norm': 1.6535714827139338, 'learning_rate': 6.190670268532928e-06, 'epoch': 1.78}
+{'loss': 0.6662, 'grad_norm': 1.909867422781392, 'learning_rate': 6.160528577257463e-06, 'epoch': 1.78}
+{'loss': 0.7638, 'grad_norm': 1.6674197267438977, 'learning_rate': 6.130458111206361e-06, 'epoch': 1.78}
+{'loss': 0.6227, 'grad_norm': 1.488843291030167, 'learning_rate': 6.100458893203464e-06, 'epoch': 1.78}
+{'loss': 0.9154, 'grad_norm': 1.8917173647631613, 'learning_rate': 6.070530946018504e-06, 'epoch': 1.78}
+{'loss': 0.7173, 'grad_norm': 1.861837259021914, 'learning_rate': 6.040674292367121e-06, 'epoch': 1.78}
+{'loss': 1.1371, 'grad_norm': 2.186514982176401, 'learning_rate': 6.010888954910876e-06, 'epoch': 1.78}
+{'loss': 0.615, 'grad_norm': 1.7272449880285263, 'learning_rate': 5.981174956257174e-06, 'epoch': 1.79}
+{'loss': 0.9349, 'grad_norm': 1.9054698809928248, 'learning_rate': 5.951532318959263e-06, 'epoch': 1.79}
+{'loss': 0.667, 'grad_norm': 1.8819491297432898, 'learning_rate': 5.921961065516235e-06, 'epoch': 1.79}
+{'loss': 0.7387, 'grad_norm': 2.0922210994816925, 'learning_rate': 5.8924612183730465e-06, 'epoch': 1.79}
+{'loss': 0.5629, 'grad_norm': 1.4260853023843736, 'learning_rate': 5.863032799920376e-06, 'epoch': 1.79}
+{'loss': 1.0047, 'grad_norm': 1.7461431882188296, 'learning_rate': 5.833675832494756e-06, 'epoch': 1.79}
+{'loss': 1.2565, 'grad_norm': 2.727224389576323, 'learning_rate': 5.80439033837844e-06, 'epoch': 1.79}
+{'loss': 1.0129, 'grad_norm': 2.1951129706384167, 'learning_rate': 5.775176339799459e-06, 'epoch': 1.79}
+{'loss': 0.6691, 'grad_norm': 2.0096913178031506, 'learning_rate': 5.7460338589315655e-06, 'epoch': 1.79}
+{'loss': 0.5969, 'grad_norm': 1.7207956261704795, 'learning_rate': 5.716962917894242e-06, 'epoch': 1.79}
+{'loss': 1.0682, 'grad_norm': 2.442572379232486, 'learning_rate': 5.687963538752639e-06, 'epoch': 1.79}
+{'loss': 0.7657, 'grad_norm': 2.2764776107781683, 'learning_rate': 5.659035743517638e-06, 'epoch': 1.79}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 90%|█████████████████████████████████▍   | 3360/3718 [1:18:22<51:57,  8.71s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.8301, 'grad_norm': 2.1286993925329525, 'learning_rate': 5.630179554145753e-06, 'epoch': 1.79}
+{'loss': 0.6216, 'grad_norm': 1.4506798640063103, 'learning_rate': 5.601394992539177e-06, 'epoch': 1.79}
+{'loss': 0.7838, 'grad_norm': 1.7693545497147098, 'learning_rate': 5.5726820805456995e-06, 'epoch': 1.79}
+{'loss': 0.7474, 'grad_norm': 1.455458869053166, 'learning_rate': 5.5440408399587526e-06, 'epoch': 1.79}
+{'loss': 0.717, 'grad_norm': 1.5882078231909746, 'learning_rate': 5.5154712925173605e-06, 'epoch': 1.79}
+{'loss': 0.5404, 'grad_norm': 1.5146226438624857, 'learning_rate': 5.486973459906142e-06, 'epoch': 1.79}
+{'loss': 0.7147, 'grad_norm': 2.065129842743953, 'learning_rate': 5.458547363755251e-06, 'epoch': 1.8}
+{'loss': 0.6588, 'grad_norm': 2.0546342418551733, 'learning_rate': 5.430193025640462e-06, 'epoch': 1.8}
+{'loss': 0.7286, 'grad_norm': 1.651223735242814, 'learning_rate': 5.401910467083005e-06, 'epoch': 1.8}
+{'loss': 1.1304, 'grad_norm': 2.412393278428757, 'learning_rate': 5.373699709549673e-06, 'epoch': 1.8}
+{'loss': 0.652, 'grad_norm': 1.6475338043464143, 'learning_rate': 5.345560774452762e-06, 'epoch': 1.8}
+{'loss': 0.7763, 'grad_norm': 1.9496748020421657, 'learning_rate': 5.317493683150021e-06, 'epoch': 1.8}
+{'loss': 0.9735, 'grad_norm': 1.8424088321601495, 'learning_rate': 5.289498456944697e-06, 'epoch': 1.8}
+{'loss': 0.6438, 'grad_norm': 2.1684629853412356, 'learning_rate': 5.261575117085505e-06, 'epoch': 1.8}
+{'loss': 1.0818, 'grad_norm': 3.012988575010451, 'learning_rate': 5.233723684766534e-06, 'epoch': 1.8}
+{'loss': 0.8574, 'grad_norm': 1.985050214132821, 'learning_rate': 5.205944181127387e-06, 'epoch': 1.8}
+{'loss': 0.7132, 'grad_norm': 1.7111243067535873, 'learning_rate': 5.178236627253008e-06, 'epoch': 1.8}
+{'loss': 0.912, 'grad_norm': 2.1413956626622563, 'learning_rate': 5.15060104417372e-06, 'epoch': 1.8}
+{'loss': 0.7913, 'grad_norm': 2.464370026447781, 'learning_rate': 5.123037452865276e-06, 'epoch': 1.8}
+{'loss': 1.001, 'grad_norm': 2.756126316118256, 'learning_rate': 5.095545874248741e-06, 'epoch': 1.8}
+{'loss': 0.6848, 'grad_norm': 1.6099885505143474, 'learning_rate': 5.068126329190526e-06, 'epoch': 1.8}
+{'loss': 0.6732, 'grad_norm': 1.8796025571154331, 'learning_rate': 5.04077883850238e-06, 'epoch': 1.8}
+{'loss': 0.7053, 'grad_norm': 1.6209804989174477, 'learning_rate': 5.013503422941379e-06, 'epoch': 1.8}
+{'loss': 0.6687, 'grad_norm': 1.65995206220564, 'learning_rate': 4.986300103209851e-06, 'epoch': 1.8}
+{'loss': 0.8129, 'grad_norm': 1.9852723559767813, 'learning_rate': 4.959168899955446e-06, 'epoch': 1.8}
+{'loss': 0.64, 'grad_norm': 1.8079428086017209, 'learning_rate': 4.932109833771037e-06, 'epoch': 1.81}
+{'loss': 0.8705, 'grad_norm': 1.9309044043476449, 'learning_rate': 4.905122925194761e-06, 'epoch': 1.81}
+{'loss': 0.7092, 'grad_norm': 2.142255817432013, 'learning_rate': 4.87820819471001e-06, 'epoch': 1.81}
+{'loss': 0.7344, 'grad_norm': 1.7036771297672935, 'learning_rate': 4.851365662745344e-06, 'epoch': 1.81}
+{'loss': 0.782, 'grad_norm': 1.7823867367923254, 'learning_rate': 4.8245953496745435e-06, 'epoch': 1.81}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 91%|█████████████████████████████████▋   | 3390/3718 [1:22:56<48:00,  8.78s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.6976, 'grad_norm': 1.9074752758371938, 'learning_rate': 4.797897275816621e-06, 'epoch': 1.81}
+{'loss': 0.8844, 'grad_norm': 1.892345176227855, 'learning_rate': 4.771271461435689e-06, 'epoch': 1.81}
+{'loss': 0.9884, 'grad_norm': 1.8129217038931036, 'learning_rate': 4.744717926741049e-06, 'epoch': 1.81}
+{'loss': 0.9279, 'grad_norm': 2.119876476631206, 'learning_rate': 4.718236691887134e-06, 'epoch': 1.81}
+{'loss': 0.472, 'grad_norm': 1.2962617709160291, 'learning_rate': 4.6918277769735006e-06, 'epoch': 1.81}
+{'loss': 0.8839, 'grad_norm': 1.626375724336945, 'learning_rate': 4.665491202044825e-06, 'epoch': 1.81}
+{'loss': 0.9364, 'grad_norm': 1.673380769454161, 'learning_rate': 4.63922698709085e-06, 'epoch': 1.81}
+{'loss': 0.676, 'grad_norm': 1.6228633213148145, 'learning_rate': 4.613035152046407e-06, 'epoch': 1.81}
+{'loss': 0.4964, 'grad_norm': 1.54767263296898, 'learning_rate': 4.5869157167914285e-06, 'epoch': 1.81}
+{'loss': 0.3573, 'grad_norm': 1.346685864570521, 'learning_rate': 4.560868701150844e-06, 'epoch': 1.81}
+{'loss': 0.4432, 'grad_norm': 1.4611115851147027, 'learning_rate': 4.534894124894628e-06, 'epoch': 1.81}
+{'loss': 0.8098, 'grad_norm': 2.7806474004711377, 'learning_rate': 4.508992007737789e-06, 'epoch': 1.81}
+{'loss': 1.2254, 'grad_norm': 2.542948833337583, 'learning_rate': 4.483162369340333e-06, 'epoch': 1.81}
+{'loss': 0.4459, 'grad_norm': 1.391559815320942, 'learning_rate': 4.4574052293072325e-06, 'epoch': 1.81}
+{'loss': 0.7236, 'grad_norm': 1.6100463832454506, 'learning_rate': 4.431720607188439e-06, 'epoch': 1.82}
+{'loss': 1.0127, 'grad_norm': 1.755311050846565, 'learning_rate': 4.4061085224789135e-06, 'epoch': 1.82}
+{'loss': 0.6206, 'grad_norm': 1.9076313257447866, 'learning_rate': 4.380568994618484e-06, 'epoch': 1.82}
+{'loss': 0.8943, 'grad_norm': 2.1933657321859816, 'learning_rate': 4.355102042991965e-06, 'epoch': 1.82}
+{'loss': 0.6249, 'grad_norm': 2.1760055674626018, 'learning_rate': 4.329707686929052e-06, 'epoch': 1.82}
+{'loss': 0.6401, 'grad_norm': 1.7530780303066347, 'learning_rate': 4.304385945704348e-06, 'epoch': 1.82}
+{'loss': 0.7417, 'grad_norm': 1.8126687664482044, 'learning_rate': 4.279136838537334e-06, 'epoch': 1.82}
+{'loss': 0.82, 'grad_norm': 1.9996281374784874, 'learning_rate': 4.2539603845923815e-06, 'epoch': 1.82}
+{'loss': 1.1301, 'grad_norm': 2.347210647949201, 'learning_rate': 4.2288566029786926e-06, 'epoch': 1.82}
+{'loss': 0.6737, 'grad_norm': 2.077647695485202, 'learning_rate': 4.203825512750348e-06, 'epoch': 1.82}
+{'loss': 0.8283, 'grad_norm': 1.9908440398058456, 'learning_rate': 4.1788671329062055e-06, 'epoch': 1.82}
+{'loss': 0.4337, 'grad_norm': 1.4173315599442067, 'learning_rate': 4.153981482389968e-06, 'epoch': 1.82}
+{'loss': 0.9398, 'grad_norm': 1.7572054730138318, 'learning_rate': 4.129168580090115e-06, 'epoch': 1.82}
+{'loss': 1.1003, 'grad_norm': 2.006862364002522, 'learning_rate': 4.104428444839947e-06, 'epoch': 1.82}
+{'loss': 1.1378, 'grad_norm': 2.130743643246198, 'learning_rate': 4.079761095417478e-06, 'epoch': 1.82}
+{'loss': 0.9407, 'grad_norm': 2.0348289360229437, 'learning_rate': 4.0551665505455305e-06, 'epoch': 1.82}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 92%|██████████████████████████████████   | 3420/3718 [1:27:31<42:45,  8.61s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.8097, 'grad_norm': 1.9554784248902781, 'learning_rate': 4.030644828891617e-06, 'epoch': 1.82}
+{'loss': 0.9155, 'grad_norm': 2.167586518403499, 'learning_rate': 4.0061959490680365e-06, 'epoch': 1.82}
+{'loss': 0.8211, 'grad_norm': 1.6777563730708946, 'learning_rate': 3.981819929631736e-06, 'epoch': 1.83}
+{'loss': 0.4587, 'grad_norm': 1.5337211387616347, 'learning_rate': 3.957516789084414e-06, 'epoch': 1.83}
+{'loss': 0.4661, 'grad_norm': 1.5919171643910501, 'learning_rate': 3.933286545872417e-06, 'epoch': 1.83}
+{'loss': 0.8499, 'grad_norm': 2.301821909898444, 'learning_rate': 3.909129218386765e-06, 'epoch': 1.83}
+{'loss': 0.7141, 'grad_norm': 1.821741331040093, 'learning_rate': 3.885044824963169e-06, 'epoch': 1.83}
+{'loss': 0.6974, 'grad_norm': 1.8631770665976597, 'learning_rate': 3.861033383881929e-06, 'epoch': 1.83}
+{'loss': 0.5899, 'grad_norm': 1.735209442182295, 'learning_rate': 3.837094913368033e-06, 'epoch': 1.83}
+{'loss': 0.7992, 'grad_norm': 2.0021716141371573, 'learning_rate': 3.8132294315910256e-06, 'epoch': 1.83}
+{'loss': 0.7163, 'grad_norm': 1.8322432341869797, 'learning_rate': 3.7894369566650936e-06, 'epoch': 1.83}
+{'loss': 1.1075, 'grad_norm': 2.1604377471815956, 'learning_rate': 3.7657175066489915e-06, 'epoch': 1.83}
+{'loss': 0.8075, 'grad_norm': 1.9899670952916246, 'learning_rate': 3.7420710995460517e-06, 'epoch': 1.83}
+{'loss': 1.0577, 'grad_norm': 2.205889089764643, 'learning_rate': 3.718497753304162e-06, 'epoch': 1.83}
+{'loss': 0.7678, 'grad_norm': 1.6471819132593544, 'learning_rate': 3.6949974858157654e-06, 'epoch': 1.83}
+{'loss': 0.8391, 'grad_norm': 1.9282775063567577, 'learning_rate': 3.671570314917816e-06, 'epoch': 1.83}
+{'loss': 0.7649, 'grad_norm': 2.0104146269170315, 'learning_rate': 3.6482162583918234e-06, 'epoch': 1.83}
+{'loss': 0.7106, 'grad_norm': 1.661235040229643, 'learning_rate': 3.624935333963775e-06, 'epoch': 1.83}
+{'loss': 0.8787, 'grad_norm': 2.029154130694202, 'learning_rate': 3.6017275593041465e-06, 'epoch': 1.83}
+{'loss': 0.5168, 'grad_norm': 1.4127821678821557, 'learning_rate': 3.578592952027926e-06, 'epoch': 1.83}
+{'loss': 0.6505, 'grad_norm': 1.6686122339961134, 'learning_rate': 3.5555315296945226e-06, 'epoch': 1.83}
+{'loss': 0.5334, 'grad_norm': 1.4476469527832843, 'learning_rate': 3.532543309807812e-06, 'epoch': 1.84}
+{'loss': 1.1075, 'grad_norm': 2.106415908305273, 'learning_rate': 3.5096283098161378e-06, 'epoch': 1.84}
+{'loss': 0.5152, 'grad_norm': 1.5150263405005484, 'learning_rate': 3.48678654711222e-06, 'epoch': 1.84}
+{'loss': 0.8925, 'grad_norm': 2.3048268884959193, 'learning_rate': 3.4640180390332343e-06, 'epoch': 1.84}
+{'loss': 0.6445, 'grad_norm': 1.7412484260568966, 'learning_rate': 3.4413228028607357e-06, 'epoch': 1.84}
+{'loss': 0.808, 'grad_norm': 2.0125698655282127, 'learning_rate': 3.4187008558206557e-06, 'epoch': 1.84}
+{'loss': 1.0446, 'grad_norm': 2.105466046511792, 'learning_rate': 3.3961522150833258e-06, 'epoch': 1.84}
+{'loss': 0.5144, 'grad_norm': 1.3266094838791658, 'learning_rate': 3.3736768977634002e-06, 'epoch': 1.84}
+{'loss': 0.8667, 'grad_norm': 1.7181981016018741, 'learning_rate': 3.3512749209199113e-06, 'epoch': 1.84}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 93%|██████████████████████████████████▎  | 3450/3718 [1:32:05<39:02,  8.74s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.5595, 'grad_norm': 1.6034499384194283, 'learning_rate': 3.328946301556202e-06, 'epoch': 1.84}
+{'loss': 0.9329, 'grad_norm': 2.1853392160255876, 'learning_rate': 3.3066910566199703e-06, 'epoch': 1.84}
+{'loss': 0.9398, 'grad_norm': 2.08619194487719, 'learning_rate': 3.2845092030031832e-06, 'epoch': 1.84}
+{'loss': 0.8009, 'grad_norm': 1.891843995604613, 'learning_rate': 3.2624007575421278e-06, 'epoch': 1.84}
+{'loss': 0.6242, 'grad_norm': 2.073805084474003, 'learning_rate': 3.240365737017359e-06, 'epoch': 1.84}
+{'loss': 0.9935, 'grad_norm': 2.5613872383463976, 'learning_rate': 3.2184041581537094e-06, 'epoch': 1.84}
+{'loss': 0.8477, 'grad_norm': 1.760888211871442, 'learning_rate': 3.1965160376202562e-06, 'epoch': 1.84}
+{'loss': 0.6865, 'grad_norm': 1.5820023302075006, 'learning_rate': 3.174701392030355e-06, 'epoch': 1.84}
+{'loss': 1.0053, 'grad_norm': 2.1065405292063804, 'learning_rate': 3.152960237941549e-06, 'epoch': 1.84}
+{'loss': 0.9153, 'grad_norm': 1.9145399542089012, 'learning_rate': 3.131292591855628e-06, 'epoch': 1.85}
+{'loss': 0.6122, 'grad_norm': 1.5133092376979789, 'learning_rate': 3.1096984702185915e-06, 'epoch': 1.85}
+{'loss': 0.412, 'grad_norm': 1.316031858556508, 'learning_rate': 3.088177889420607e-06, 'epoch': 1.85}
+{'loss': 0.9536, 'grad_norm': 2.0109035356570697, 'learning_rate': 3.0667308657960524e-06, 'epoch': 1.85}
+{'loss': 0.9316, 'grad_norm': 1.8696917901501078, 'learning_rate': 3.045357415623451e-06, 'epoch': 1.85}
+{'loss': 0.7207, 'grad_norm': 1.5467872332373274, 'learning_rate': 3.0240575551254924e-06, 'epoch': 1.85}
+{'loss': 1.1187, 'grad_norm': 2.7686714852690413, 'learning_rate': 3.0028313004690334e-06, 'epoch': 1.85}
+{'loss': 0.5084, 'grad_norm': 1.5697587475827388, 'learning_rate': 2.981678667765009e-06, 'epoch': 1.85}
+{'loss': 0.6361, 'grad_norm': 1.796380954164762, 'learning_rate': 2.9605996730685424e-06, 'epoch': 1.85}
+{'loss': 0.853, 'grad_norm': 2.07309066284009, 'learning_rate': 2.9395943323788143e-06, 'epoch': 1.85}
+{'loss': 0.8474, 'grad_norm': 1.963784786319454, 'learning_rate': 2.9186626616391042e-06, 'epoch': 1.85}
+{'loss': 0.6946, 'grad_norm': 1.9887293313574095, 'learning_rate': 2.897804676736815e-06, 'epoch': 1.85}
+{'loss': 0.5718, 'grad_norm': 1.7390161379038878, 'learning_rate': 2.8770203935033823e-06, 'epoch': 1.85}
+{'loss': 0.8036, 'grad_norm': 1.7117586174136241, 'learning_rate': 2.8563098277142985e-06, 'epoch': 1.85}
+{'loss': 0.8374, 'grad_norm': 2.405988104968431, 'learning_rate': 2.8356729950891225e-06, 'epoch': 1.85}
+{'loss': 0.7374, 'grad_norm': 1.7566936224376026, 'learning_rate': 2.815109911291469e-06, 'epoch': 1.85}
+{'loss': 0.5547, 'grad_norm': 1.616435596939718, 'learning_rate': 2.7946205919289314e-06, 'epoch': 1.85}
+{'loss': 0.7062, 'grad_norm': 1.8235718739032913, 'learning_rate': 2.774205052553136e-06, 'epoch': 1.85}
+{'loss': 0.7513, 'grad_norm': 1.820815106528438, 'learning_rate': 2.753863308659721e-06, 'epoch': 1.85}
+{'loss': 0.9502, 'grad_norm': 1.9171697295253263, 'learning_rate': 2.7335953756882916e-06, 'epoch': 1.86}
+{'loss': 0.4271, 'grad_norm': 1.6254703314262395, 'learning_rate': 2.7134012690224307e-06, 'epoch': 1.86}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 94%|██████████████████████████████████▋  | 3480/3718 [1:36:39<34:39,  8.74s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.6774, 'grad_norm': 2.065911562266313, 'learning_rate': 2.6932810039897118e-06, 'epoch': 1.86}
+{'loss': 0.6401, 'grad_norm': 2.2747049991921977, 'learning_rate': 2.673234595861629e-06, 'epoch': 1.86}
+{'loss': 0.7313, 'grad_norm': 1.554665198951223, 'learning_rate': 2.653262059853645e-06, 'epoch': 1.86}
+{'loss': 0.5765, 'grad_norm': 1.9433103661243802, 'learning_rate': 2.633363411125134e-06, 'epoch': 1.86}
+{'loss': 0.513, 'grad_norm': 1.315127614276263, 'learning_rate': 2.6135386647794136e-06, 'epoch': 1.86}
+{'loss': 1.1695, 'grad_norm': 2.7963916500199524, 'learning_rate': 2.5937878358636704e-06, 'epoch': 1.86}
+{'loss': 0.7982, 'grad_norm': 1.6451435407872186, 'learning_rate': 2.574110939369012e-06, 'epoch': 1.86}
+{'loss': 0.6311, 'grad_norm': 1.5844221620243126, 'learning_rate': 2.554507990230437e-06, 'epoch': 1.86}
+{'loss': 0.7099, 'grad_norm': 1.8905942826887023, 'learning_rate': 2.5349790033267985e-06, 'epoch': 1.86}
+{'loss': 0.6814, 'grad_norm': 1.5058693403192127, 'learning_rate': 2.515523993480806e-06, 'epoch': 1.86}
+{'loss': 0.8748, 'grad_norm': 2.202179983055004, 'learning_rate': 2.496142975459059e-06, 'epoch': 1.86}
+{'loss': 0.6838, 'grad_norm': 1.54579389609114, 'learning_rate': 2.4768359639719575e-06, 'epoch': 1.86}
+{'loss': 0.901, 'grad_norm': 2.114411633166304, 'learning_rate': 2.457602973673734e-06, 'epoch': 1.86}
+{'loss': 0.7976, 'grad_norm': 1.6168258082921358, 'learning_rate': 2.4384440191624668e-06, 'epoch': 1.86}
+{'loss': 0.8344, 'grad_norm': 2.3265478108197812, 'learning_rate': 2.419359114980002e-06, 'epoch': 1.86}
+{'loss': 0.4331, 'grad_norm': 1.6749887186140124, 'learning_rate': 2.400348275612019e-06, 'epoch': 1.86}
+{'loss': 0.7284, 'grad_norm': 1.656949135387573, 'learning_rate': 2.381411515487919e-06, 'epoch': 1.86}
+{'loss': 1.1454, 'grad_norm': 2.298342383086172, 'learning_rate': 2.362548848980972e-06, 'epoch': 1.87}
+{'loss': 0.5821, 'grad_norm': 1.5338967266544274, 'learning_rate': 2.3437602904081145e-06, 'epoch': 1.87}
+{'loss': 0.6674, 'grad_norm': 1.7054552769840636, 'learning_rate': 2.3250458540301055e-06, 'epoch': 1.87}
+{'loss': 0.9027, 'grad_norm': 1.7672891583565238, 'learning_rate': 2.306405554051394e-06, 'epoch': 1.87}
+{'loss': 0.9418, 'grad_norm': 1.7615676786362635, 'learning_rate': 2.2878394046201845e-06, 'epoch': 1.87}
+{'loss': 0.494, 'grad_norm': 1.600161905640844, 'learning_rate': 2.2693474198283938e-06, 'epoch': 1.87}
+{'loss': 0.5247, 'grad_norm': 1.6224568555237666, 'learning_rate': 2.250929613711661e-06, 'epoch': 1.87}
+{'loss': 0.5883, 'grad_norm': 1.736250562605125, 'learning_rate': 2.2325860002492814e-06, 'epoch': 1.87}
+{'loss': 0.7087, 'grad_norm': 1.8922920086629094, 'learning_rate': 2.2143165933642962e-06, 'epoch': 1.87}
+{'loss': 0.653, 'grad_norm': 1.7913996535074412, 'learning_rate': 2.1961214069233794e-06, 'epoch': 1.87}
+{'loss': 0.6799, 'grad_norm': 1.68898137230978, 'learning_rate': 2.178000454736895e-06, 'epoch': 1.87}
+{'loss': 0.936, 'grad_norm': 1.8299625710534746, 'learning_rate': 2.159953750558841e-06, 'epoch': 1.87}
+{'loss': 0.6614, 'grad_norm': 1.8843099839042428, 'learning_rate': 2.14198130808686e-06, 'epoch': 1.87}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 94%|██████████████████████████████████▉  | 3510/3718 [1:41:15<30:27,  8.79s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.7856, 'grad_norm': 1.782533511742835, 'learning_rate': 2.124083140962263e-06, 'epoch': 1.87}
+{'loss': 0.9281, 'grad_norm': 2.5212255464908453, 'learning_rate': 2.1062592627699494e-06, 'epoch': 1.87}
+{'loss': 0.5621, 'grad_norm': 1.5533061151106622, 'learning_rate': 2.0885096870384312e-06, 'epoch': 1.87}
+{'loss': 0.8017, 'grad_norm': 1.9323845724166142, 'learning_rate': 2.070834427239876e-06, 'epoch': 1.87}
+{'loss': 1.033, 'grad_norm': 1.6845963644840165, 'learning_rate': 2.0532334967899747e-06, 'epoch': 1.87}
+{'loss': 0.8171, 'grad_norm': 1.7480332474145235, 'learning_rate': 2.0357069090480406e-06, 'epoch': 1.88}
+{'loss': 0.8668, 'grad_norm': 2.299006495928964, 'learning_rate': 2.0182546773169665e-06, 'epoch': 1.88}
+{'loss': 0.7556, 'grad_norm': 2.039795232621001, 'learning_rate': 2.000876814843167e-06, 'epoch': 1.88}
+{'loss': 0.5263, 'grad_norm': 1.5033419304004358, 'learning_rate': 1.9835733348166685e-06, 'epoch': 1.88}
+{'loss': 0.6111, 'grad_norm': 1.7386381883752653, 'learning_rate': 1.966344250370977e-06, 'epoch': 1.88}
+{'loss': 0.9537, 'grad_norm': 1.889635874776526, 'learning_rate': 1.9491895745831877e-06, 'epoch': 1.88}
+{'loss': 0.6054, 'grad_norm': 1.689770535457744, 'learning_rate': 1.932109320473896e-06, 'epoch': 1.88}
+{'loss': 0.4361, 'grad_norm': 1.4305258330669923, 'learning_rate': 1.915103501007176e-06, 'epoch': 1.88}
+{'loss': 0.7778, 'grad_norm': 2.4430370677590503, 'learning_rate': 1.8981721290906807e-06, 'epoch': 1.88}
+{'loss': 0.9052, 'grad_norm': 1.9806181617296759, 'learning_rate': 1.8813152175754855e-06, 'epoch': 1.88}
+{'loss': 1.1057, 'grad_norm': 2.4241526817126786, 'learning_rate': 1.8645327792562007e-06, 'epoch': 1.88}
+{'loss': 0.7522, 'grad_norm': 2.083182884812232, 'learning_rate': 1.8478248268708587e-06, 'epoch': 1.88}
+{'loss': 0.8432, 'grad_norm': 1.6698722059264748, 'learning_rate': 1.8311913731010043e-06, 'epoch': 1.88}
+{'loss': 0.5529, 'grad_norm': 1.4511418441813777, 'learning_rate': 1.8146324305716056e-06, 'epoch': 1.88}
+{'loss': 0.828, 'grad_norm': 1.556802720604715, 'learning_rate': 1.7981480118510974e-06, 'epoch': 1.88}
+{'loss': 0.9829, 'grad_norm': 1.989500254393718, 'learning_rate': 1.781738129451338e-06, 'epoch': 1.88}
+{'loss': 0.7054, 'grad_norm': 1.6065209189276637, 'learning_rate': 1.7654027958276197e-06, 'epoch': 1.88}
+{'loss': 0.8254, 'grad_norm': 2.149296688970056, 'learning_rate': 1.749142023378647e-06, 'epoch': 1.88}
+{'loss': 0.7338, 'grad_norm': 1.8629515507801306, 'learning_rate': 1.7329558244465139e-06, 'epoch': 1.88}
+{'loss': 0.556, 'grad_norm': 2.069018771933074, 'learning_rate': 1.7168442113167482e-06, 'epoch': 1.89}
+{'loss': 0.853, 'grad_norm': 2.02676675318932, 'learning_rate': 1.7008071962182348e-06, 'epoch': 1.89}
+{'loss': 0.7574, 'grad_norm': 1.6180730095236024, 'learning_rate': 1.684844791323248e-06, 'epoch': 1.89}
+{'loss': 0.4716, 'grad_norm': 1.3419544144865827, 'learning_rate': 1.6689570087474514e-06, 'epoch': 1.89}
+{'loss': 0.6794, 'grad_norm': 1.5763395799580404, 'learning_rate': 1.653143860549844e-06, 'epoch': 1.89}
+{'loss': 0.6983, 'grad_norm': 1.749614005280827, 'learning_rate': 1.6374053587327798e-06, 'epoch': 1.89}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 95%|███████████████████████████████████▏ | 3540/3718 [1:45:49<25:39,  8.65s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.6998, 'grad_norm': 1.5570310514359613, 'learning_rate': 1.621741515241959e-06, 'epoch': 1.89}
+{'loss': 0.9966, 'grad_norm': 2.2498610327874498, 'learning_rate': 1.606152341966427e-06, 'epoch': 1.89}
+{'loss': 0.5958, 'grad_norm': 1.4736119854215453, 'learning_rate': 1.590637850738541e-06, 'epoch': 1.89}
+{'loss': 0.4845, 'grad_norm': 1.6481982322579343, 'learning_rate': 1.5751980533339705e-06, 'epoch': 1.89}
+{'loss': 1.0384, 'grad_norm': 2.005755743042061, 'learning_rate': 1.5598329614716967e-06, 'epoch': 1.89}
+{'loss': 0.6877, 'grad_norm': 1.564085254983258, 'learning_rate': 1.5445425868140017e-06, 'epoch': 1.89}
+{'loss': 0.7125, 'grad_norm': 1.6549291924278797, 'learning_rate': 1.5293269409664468e-06, 'epoch': 1.89}
+{'loss': 1.0507, 'grad_norm': 2.164968444921948, 'learning_rate': 1.5141860354778936e-06, 'epoch': 1.89}
+{'loss': 0.7449, 'grad_norm': 1.619995183910729, 'learning_rate': 1.4991198818404606e-06, 'epoch': 1.89}
+{'loss': 0.6959, 'grad_norm': 1.605490900444123, 'learning_rate': 1.4841284914895116e-06, 'epoch': 1.89}
+{'loss': 0.4162, 'grad_norm': 1.4498176207011253, 'learning_rate': 1.4692118758036998e-06, 'epoch': 1.89}
+{'loss': 0.9064, 'grad_norm': 2.0818584921413974, 'learning_rate': 1.4543700461049027e-06, 'epoch': 1.89}
+{'loss': 0.7737, 'grad_norm': 1.7902887532772802, 'learning_rate': 1.4396030136582195e-06, 'epoch': 1.9}
+{'loss': 0.6135, 'grad_norm': 1.4858009264490755, 'learning_rate': 1.4249107896720293e-06, 'epoch': 1.9}
+{'loss': 1.0224, 'grad_norm': 2.240819623450716, 'learning_rate': 1.4102933852978673e-06, 'epoch': 1.9}
+{'loss': 0.7927, 'grad_norm': 1.6703273444850824, 'learning_rate': 1.3957508116305252e-06, 'epoch': 1.9}
+{'loss': 0.8193, 'grad_norm': 1.558737855861479, 'learning_rate': 1.3812830797079734e-06, 'epoch': 1.9}
+{'loss': 0.4425, 'grad_norm': 1.6192743096332534, 'learning_rate': 1.3668902005113837e-06, 'epoch': 1.9}
+{'loss': 0.8504, 'grad_norm': 1.9448308511812433, 'learning_rate': 1.3525721849651285e-06, 'epoch': 1.9}
+{'loss': 1.4028, 'grad_norm': 2.0931106069992484, 'learning_rate': 1.3383290439367257e-06, 'epoch': 1.9}
+{'loss': 0.7318, 'grad_norm': 1.4142277397289098, 'learning_rate': 1.3241607882368946e-06, 'epoch': 1.9}
+{'loss': 0.7137, 'grad_norm': 2.2892814649729663, 'learning_rate': 1.310067428619488e-06, 'epoch': 1.9}
+{'loss': 0.9783, 'grad_norm': 1.7280934626910889, 'learning_rate': 1.2960489757815497e-06, 'epoch': 1.9}
+{'loss': 0.7659, 'grad_norm': 1.5318844577624828, 'learning_rate': 1.2821054403632238e-06, 'epoch': 1.9}
+{'loss': 0.8894, 'grad_norm': 2.45343617862025, 'learning_rate': 1.2682368329478222e-06, 'epoch': 1.9}
+{'loss': 0.4785, 'grad_norm': 1.419488997475902, 'learning_rate': 1.2544431640617693e-06, 'epoch': 1.9}
+{'loss': 0.5004, 'grad_norm': 1.5411968469045931, 'learning_rate': 1.2407244441746234e-06, 'epoch': 1.9}
+{'loss': 0.5933, 'grad_norm': 2.2663368787416975, 'learning_rate': 1.2270806836990334e-06, 'epoch': 1.9}
+{'loss': 0.5854, 'grad_norm': 1.5618382634605077, 'learning_rate': 1.213511892990782e-06, 'epoch': 1.9}
+{'loss': 0.7795, 'grad_norm': 2.0225301347265123, 'learning_rate': 1.2000180823487418e-06, 'epoch': 1.9}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 96%|███████████████████████████████████▌ | 3570/3718 [1:50:21<21:48,  8.84s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.5899, 'grad_norm': 1.9561265761993452, 'learning_rate': 1.1865992620148536e-06, 'epoch': 1.9}
+{'loss': 0.7256, 'grad_norm': 2.178663992207104, 'learning_rate': 1.1732554421741593e-06, 'epoch': 1.91}
+{'loss': 0.9245, 'grad_norm': 2.3885779097501296, 'learning_rate': 1.1599866329547682e-06, 'epoch': 1.91}
+{'loss': 0.6776, 'grad_norm': 1.9374968285960001, 'learning_rate': 1.1467928444278686e-06, 'epoch': 1.91}
+{'loss': 0.852, 'grad_norm': 1.800857475519575, 'learning_rate': 1.1336740866076723e-06, 'epoch': 1.91}
+{'loss': 0.6466, 'grad_norm': 1.95254469190628, 'learning_rate': 1.120630369451481e-06, 'epoch': 1.91}
+{'loss': 1.062, 'grad_norm': 1.9208656951742054, 'learning_rate': 1.1076617028596304e-06, 'epoch': 1.91}
+{'loss': 0.4588, 'grad_norm': 1.5649243489182123, 'learning_rate': 1.0947680966754804e-06, 'epoch': 1.91}
+{'loss': 0.6602, 'grad_norm': 1.5971127410978712, 'learning_rate': 1.0819495606854245e-06, 'epoch': 1.91}
+{'loss': 0.7737, 'grad_norm': 1.9364690519294703, 'learning_rate': 1.0692061046188696e-06, 'epoch': 1.91}
+{'loss': 0.5729, 'grad_norm': 1.6779258980250067, 'learning_rate': 1.0565377381482444e-06, 'epoch': 1.91}
+{'loss': 0.8801, 'grad_norm': 2.717834795651493, 'learning_rate': 1.0439444708889912e-06, 'epoch': 1.91}
+{'loss': 0.732, 'grad_norm': 1.6840945564761454, 'learning_rate': 1.0314263123995305e-06, 'epoch': 1.91}
+{'loss': 0.6305, 'grad_norm': 1.629635036014611, 'learning_rate': 1.0189832721813063e-06, 'epoch': 1.91}
+{'loss': 0.4628, 'grad_norm': 1.4315420303313395, 'learning_rate': 1.0066153596787086e-06, 'epoch': 1.91}
+{'loss': 0.8222, 'grad_norm': 1.6403803197318134, 'learning_rate': 9.943225842791392e-07, 'epoch': 1.91}
+{'loss': 0.9985, 'grad_norm': 1.6591255698780225, 'learning_rate': 9.821049553129458e-07, 'epoch': 1.91}
+{'loss': 0.817, 'grad_norm': 1.7998709226860488, 'learning_rate': 9.699624820534436e-07, 'epoch': 1.91}
+{'loss': 1.2683, 'grad_norm': 2.519205091197946, 'learning_rate': 9.578951737169051e-07, 'epoch': 1.91}
+{'loss': 0.9089, 'grad_norm': 2.238689997078823, 'learning_rate': 9.459030394625701e-07, 'epoch': 1.92}
+{'loss': 0.4841, 'grad_norm': 1.6227223208113664, 'learning_rate': 9.339860883925911e-07, 'epoch': 1.92}
+{'loss': 1.1839, 'grad_norm': 2.146625997297506, 'learning_rate': 9.221443295520771e-07, 'epoch': 1.92}
+{'loss': 0.7789, 'grad_norm': 1.6028728782398416, 'learning_rate': 9.103777719290496e-07, 'epoch': 1.92}
+{'loss': 0.9638, 'grad_norm': 2.183122120001954, 'learning_rate': 8.986864244544757e-07, 'epoch': 1.92}
+{'loss': 0.617, 'grad_norm': 1.4740014634425476, 'learning_rate': 8.870702960022015e-07, 'epoch': 1.92}
+{'loss': 0.8193, 'grad_norm': 2.401373179590746, 'learning_rate': 8.755293953890075e-07, 'epoch': 1.92}
+{'loss': 0.7206, 'grad_norm': 1.7939406709977757, 'learning_rate': 8.640637313745648e-07, 'epoch': 1.92}
+{'loss': 0.7711, 'grad_norm': 1.8872165172802102, 'learning_rate': 8.526733126614561e-07, 'epoch': 1.92}
+{'loss': 0.8072, 'grad_norm': 1.8542893779824783, 'learning_rate': 8.413581478951216e-07, 'epoch': 1.92}
+{'loss': 0.6462, 'grad_norm': 1.522240159651209, 'learning_rate': 8.301182456639134e-07, 'epoch': 1.92}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 97%|███████████████████████████████████▊ | 3600/3718 [1:54:57<16:59,  8.64s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.8817, 'grad_norm': 1.703384032479546, 'learning_rate': 8.189536144990296e-07, 'epoch': 1.92}
+{'loss': 0.9541, 'grad_norm': 1.9184973311580804, 'learning_rate': 8.078642628745691e-07, 'epoch': 1.92}
+{'loss': 1.2454, 'grad_norm': 2.206061910747067, 'learning_rate': 7.968501992074773e-07, 'epoch': 1.92}
+{'loss': 0.4521, 'grad_norm': 1.402367757469515, 'learning_rate': 7.859114318575333e-07, 'epoch': 1.92}
+{'loss': 0.959, 'grad_norm': 1.876532801142071, 'learning_rate': 7.75047969127396e-07, 'epoch': 1.92}
+{'loss': 1.202, 'grad_norm': 1.9253593940180929, 'learning_rate': 7.642598192625583e-07, 'epoch': 1.92}
+{'loss': 0.8326, 'grad_norm': 1.88707625750284, 'learning_rate': 7.535469904513481e-07, 'epoch': 1.92}
+{'loss': 0.7598, 'grad_norm': 1.8361237206435723, 'learning_rate': 7.429094908249167e-07, 'epoch': 1.92}
+{'loss': 0.9475, 'grad_norm': 2.2661201043137176, 'learning_rate': 7.323473284572723e-07, 'epoch': 1.93}
+{'loss': 0.6142, 'grad_norm': 1.4971729090775119, 'learning_rate': 7.2186051136518e-07, 'epoch': 1.93}
+{'loss': 0.7565, 'grad_norm': 1.4060006680209334, 'learning_rate': 7.114490475082835e-07, 'epoch': 1.93}
+{'loss': 0.6108, 'grad_norm': 1.5287886996490907, 'learning_rate': 7.011129447889842e-07, 'epoch': 1.93}
+{'loss': 0.949, 'grad_norm': 2.0343483615041777, 'learning_rate': 6.908522110525062e-07, 'epoch': 1.93}
+{'loss': 0.7464, 'grad_norm': 1.675589642700127, 'learning_rate': 6.806668540868643e-07, 'epoch': 1.93}
+{'loss': 1.4483, 'grad_norm': 1.9544320553012529, 'learning_rate': 6.705568816228635e-07, 'epoch': 1.93}
+{'loss': 0.8594, 'grad_norm': 1.7440317063686512, 'learning_rate': 6.605223013340766e-07, 'epoch': 1.93}
+{'loss': 0.75, 'grad_norm': 2.7015037904193804, 'learning_rate': 6.505631208368779e-07, 'epoch': 1.93}
+{'loss': 0.5538, 'grad_norm': 1.654209355510808, 'learning_rate': 6.406793476903871e-07, 'epoch': 1.93}
+{'loss': 0.6007, 'grad_norm': 1.7618298188274855, 'learning_rate': 6.308709893965148e-07, 'epoch': 1.93}
+{'loss': 0.6485, 'grad_norm': 1.9458561722756016, 'learning_rate': 6.211380533998945e-07, 'epoch': 1.93}
+{'loss': 0.6007, 'grad_norm': 1.6473082674018178, 'learning_rate': 6.114805470879503e-07, 'epoch': 1.93}
+{'loss': 0.9216, 'grad_norm': 2.1254404970864815, 'learning_rate': 6.018984777908299e-07, 'epoch': 1.93}
+{'loss': 0.6844, 'grad_norm': 1.9396584096983216, 'learning_rate': 5.923918527814487e-07, 'epoch': 1.93}
+{'loss': 0.5902, 'grad_norm': 1.5771566494964555, 'learning_rate': 5.829606792754349e-07, 'epoch': 1.93}
+{'loss': 0.7723, 'grad_norm': 2.541308637609386, 'learning_rate': 5.736049644311403e-07, 'epoch': 1.93}
+{'loss': 0.775, 'grad_norm': 2.3426772282657917, 'learning_rate': 5.643247153496844e-07, 'epoch': 1.93}
+{'loss': 0.6047, 'grad_norm': 1.68696312288178, 'learning_rate': 5.551199390748663e-07, 'epoch': 1.93}
+{'loss': 0.8249, 'grad_norm': 1.7409258793100617, 'learning_rate': 5.459906425932193e-07, 'epoch': 1.94}
+{'loss': 0.7444, 'grad_norm': 1.8633871733036818, 'learning_rate': 5.369368328339897e-07, 'epoch': 1.94}
+{'loss': 0.6495, 'grad_norm': 1.7966326327812632, 'learning_rate': 5.279585166691026e-07, 'epoch': 1.94}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 98%|████████████████████████████████████ | 3630/3718 [1:59:29<12:38,  8.62s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.9399, 'grad_norm': 2.321244539452551, 'learning_rate': 5.190557009132179e-07, 'epoch': 1.94}
+{'loss': 0.7727, 'grad_norm': 1.768379932147466, 'learning_rate': 5.10228392323675e-07, 'epoch': 1.94}
+{'loss': 1.0513, 'grad_norm': 2.4133030926008163, 'learning_rate': 5.01476597600492e-07, 'epoch': 1.94}
+{'loss': 0.5013, 'grad_norm': 1.749407958745659, 'learning_rate': 4.928003233863887e-07, 'epoch': 1.94}
+{'loss': 0.754, 'grad_norm': 1.9268667335694512, 'learning_rate': 4.841995762667528e-07, 'epoch': 1.94}
+{'loss': 0.8001, 'grad_norm': 1.849211974302002, 'learning_rate': 4.7567436276965137e-07, 'epoch': 1.94}
+{'loss': 0.7341, 'grad_norm': 1.7137742983152722, 'learning_rate': 4.672246893658083e-07, 'epoch': 1.94}
+{'loss': 0.5482, 'grad_norm': 1.7732929542343623, 'learning_rate': 4.588505624686379e-07, 'epoch': 1.94}
+{'loss': 0.998, 'grad_norm': 1.7740459760926057, 'learning_rate': 4.505519884341891e-07, 'epoch': 1.94}
+{'loss': 0.7389, 'grad_norm': 2.414316585089901, 'learning_rate': 4.4232897356116795e-07, 'epoch': 1.94}
+{'loss': 0.5164, 'grad_norm': 1.640300689026145, 'learning_rate': 4.3418152409093747e-07, 'epoch': 1.94}
+{'loss': 0.5843, 'grad_norm': 1.7740373655452648, 'learning_rate': 4.261096462075176e-07, 'epoch': 1.94}
+{'loss': 0.5747, 'grad_norm': 1.5464260915530923, 'learning_rate': 4.181133460375408e-07, 'epoch': 1.94}
+{'loss': 0.6236, 'grad_norm': 1.7840952791317717, 'learning_rate': 4.101926296502967e-07, 'epoch': 1.94}
+{'loss': 0.7987, 'grad_norm': 1.942479595446303, 'learning_rate': 4.0234750305768733e-07, 'epoch': 1.94}
+{'loss': 0.925, 'grad_norm': 1.8700278245829713, 'learning_rate': 3.9457797221427173e-07, 'epoch': 1.95}
+{'loss': 0.4909, 'grad_norm': 1.8532304901630798, 'learning_rate': 3.868840430172105e-07, 'epoch': 1.95}
+{'loss': 0.5849, 'grad_norm': 1.617315221153468, 'learning_rate': 3.792657213062656e-07, 'epoch': 1.95}
+{'loss': 0.4743, 'grad_norm': 1.4366133033001955, 'learning_rate': 3.7172301286384493e-07, 'epoch': 1.95}
+{'loss': 1.037, 'grad_norm': 1.7737739170368656, 'learning_rate': 3.6425592341493565e-07, 'epoch': 1.95}
+{'loss': 0.6109, 'grad_norm': 1.6549057871669526, 'learning_rate': 3.5686445862715966e-07, 'epoch': 1.95}
+{'loss': 0.768, 'grad_norm': 1.8663777976812377, 'learning_rate': 3.495486241107182e-07, 'epoch': 1.95}
+{'loss': 0.6876, 'grad_norm': 1.6718779872626603, 'learning_rate': 3.423084254184028e-07, 'epoch': 1.95}
+{'loss': 0.9323, 'grad_norm': 2.4312298220525648, 'learning_rate': 3.351438680456287e-07, 'epoch': 1.95}
+{'loss': 0.7809, 'grad_norm': 2.1767122659536895, 'learning_rate': 3.2805495743034595e-07, 'epoch': 1.95}
+{'loss': 0.9067, 'grad_norm': 2.1497086695234877, 'learning_rate': 3.2104169895313953e-07, 'epoch': 1.95}
+{'loss': 1.0484, 'grad_norm': 1.9749324147338232, 'learning_rate': 3.1410409793715124e-07, 'epoch': 1.95}
+{'loss': 1.2097, 'grad_norm': 2.2135429365737185, 'learning_rate': 3.072421596480912e-07, 'epoch': 1.95}
+{'loss': 0.7632, 'grad_norm': 2.161264162012866, 'learning_rate': 3.004558892942488e-07, 'epoch': 1.95}
+{'loss': 0.6534, 'grad_norm': 1.7935496140185403, 'learning_rate': 2.937452920264816e-07, 'epoch': 1.95}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 98%|████████████████████████████████████▍| 3660/3718 [2:04:03<08:27,  8.75s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.8446, 'grad_norm': 2.4857791707155674, 'learning_rate': 2.871103729382041e-07, 'epoch': 1.95}
+{'loss': 0.7252, 'grad_norm': 1.6796082835123503, 'learning_rate': 2.8055113706541016e-07, 'epoch': 1.95}
+{'loss': 0.7166, 'grad_norm': 1.6258001863076337, 'learning_rate': 2.7406758938662846e-07, 'epoch': 1.95}
+{'loss': 0.8388, 'grad_norm': 1.931289855555671, 'learning_rate': 2.676597348229448e-07, 'epoch': 1.95}
+{'loss': 0.9186, 'grad_norm': 2.1700919839324007, 'learning_rate': 2.6132757823799093e-07, 'epoch': 1.96}
+{'loss': 0.6288, 'grad_norm': 2.2025757913623374, 'learning_rate': 2.5507112443793337e-07, 'epoch': 1.96}
+{'loss': 0.5098, 'grad_norm': 1.5277532468823565, 'learning_rate': 2.488903781715179e-07, 'epoch': 1.96}
+{'loss': 1.2733, 'grad_norm': 2.3888019219817935, 'learning_rate': 2.42785344129981e-07, 'epoch': 1.96}
+{'loss': 0.8957, 'grad_norm': 1.9592674781429922, 'learning_rate': 2.3675602694711584e-07, 'epoch': 1.96}
+{'loss': 0.955, 'grad_norm': 1.9642370911300764, 'learning_rate': 2.308024311992618e-07, 'epoch': 1.96}
+{'loss': 1.1518, 'grad_norm': 2.0282826434219845, 'learning_rate': 2.2492456140523754e-07, 'epoch': 1.96}
+{'loss': 0.745, 'grad_norm': 2.079760549345933, 'learning_rate': 2.1912242202642985e-07, 'epoch': 1.96}
+{'loss': 0.7291, 'grad_norm': 1.5626675231201606, 'learning_rate': 2.13396017466716e-07, 'epoch': 1.96}
+{'loss': 0.6712, 'grad_norm': 1.8504143729401485, 'learning_rate': 2.0774535207251922e-07, 'epoch': 1.96}
+{'loss': 1.0269, 'grad_norm': 1.9830258027858247, 'learning_rate': 2.0217043013274207e-07, 'epoch': 1.96}
+{'loss': 1.2748, 'grad_norm': 2.366257028672351, 'learning_rate': 1.9667125587882196e-07, 'epoch': 1.96}
+{'loss': 0.9519, 'grad_norm': 2.3429924234331856, 'learning_rate': 1.9124783348469787e-07, 'epoch': 1.96}
+{'loss': 0.6076, 'grad_norm': 1.7093735926434233, 'learning_rate': 1.8590016706681035e-07, 'epoch': 1.96}
+{'loss': 1.1408, 'grad_norm': 2.6230390366777057, 'learning_rate': 1.8062826068409034e-07, 'epoch': 1.96}
+{'loss': 0.8436, 'grad_norm': 2.159650596107288, 'learning_rate': 1.7543211833797036e-07, 'epoch': 1.96}
+{'loss': 1.046, 'grad_norm': 2.200374755191887, 'learning_rate': 1.703117439723956e-07, 'epoch': 1.96}
+{'loss': 0.8566, 'grad_norm': 1.8334953342797273, 'learning_rate': 1.652671414737794e-07, 'epoch': 1.96}
+{'loss': 0.7065, 'grad_norm': 1.362817854896672, 'learning_rate': 1.6029831467102575e-07, 'epoch': 1.97}
+{'loss': 1.3087, 'grad_norm': 2.2868753927040224, 'learning_rate': 1.5540526733555104e-07, 'epoch': 1.97}
+{'loss': 0.6189, 'grad_norm': 1.7000971645702978, 'learning_rate': 1.5058800318121792e-07, 'epoch': 1.97}
+{'loss': 1.0779, 'grad_norm': 2.6475707083313167, 'learning_rate': 1.458465258643904e-07, 'epoch': 1.97}
+{'loss': 0.8703, 'grad_norm': 2.2392948005335382, 'learning_rate': 1.411808389839009e-07, 'epoch': 1.97}
+{'loss': 0.6302, 'grad_norm': 1.8202492144647173, 'learning_rate': 1.3659094608106105e-07, 'epoch': 1.97}
+{'loss': 0.6163, 'grad_norm': 1.756231982562018, 'learning_rate': 1.320768506396508e-07, 'epoch': 1.97}
+{'loss': 0.7998, 'grad_norm': 1.780978114264217, 'learning_rate': 1.2763855608591834e-07, 'epoch': 1.97}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 99%|████████████████████████████████████▋| 3690/3718 [2:08:40<04:03,  8.69s/it]/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+{'loss': 0.6366, 'grad_norm': 1.772444715447974, 'learning_rate': 1.232760657885801e-07, 'epoch': 1.97}
+{'loss': 0.7, 'grad_norm': 1.4782597111436957, 'learning_rate': 1.1898938305882067e-07, 'epoch': 1.97}
+{'loss': 0.5811, 'grad_norm': 1.8216007241613505, 'learning_rate': 1.1477851115027083e-07, 'epoch': 1.97}
+{'loss': 0.7378, 'grad_norm': 1.6937326799048082, 'learning_rate': 1.1064345325904058e-07, 'epoch': 1.97}
+{'loss': 0.7084, 'grad_norm': 1.7585247747052815, 'learning_rate': 1.065842125236749e-07, 'epoch': 1.97}
+{'loss': 1.1107, 'grad_norm': 1.8013812345382811, 'learning_rate': 1.0260079202519812e-07, 'epoch': 1.97}
+{'loss': 0.8582, 'grad_norm': 1.8509744789093479, 'learning_rate': 9.869319478705841e-08, 'epoch': 1.97}
+{'loss': 0.655, 'grad_norm': 1.6790914554776997, 'learning_rate': 9.486142377517216e-08, 'epoch': 1.97}
+{'loss': 0.4753, 'grad_norm': 1.6408958776194038, 'learning_rate': 9.11054818978907e-08, 'epoch': 1.97}
+{'loss': 0.6262, 'grad_norm': 1.512168507484552, 'learning_rate': 8.742537200603362e-08, 'epoch': 1.97}
+{'loss': 0.58, 'grad_norm': 1.7792446642608164, 'learning_rate': 8.382109689283323e-08, 'epoch': 1.97}
+{'loss': 0.5145, 'grad_norm': 1.681818832778027, 'learning_rate': 8.02926592939679e-08, 'epoch': 1.98}
+{'loss': 0.9863, 'grad_norm': 1.8700448174848145, 'learning_rate': 7.684006188757308e-08, 'epoch': 1.98}
+{'loss': 0.7131, 'grad_norm': 1.7245990144107006, 'learning_rate': 7.346330729420814e-08, 'epoch': 1.98}
+{'loss': 0.451, 'grad_norm': 1.259819219472835, 'learning_rate': 7.016239807687841e-08, 'epoch': 1.98}
+{'loss': 0.7108, 'grad_norm': 1.7587321420749227, 'learning_rate': 6.693733674097979e-08, 'epoch': 1.98}
+{'loss': 0.8656, 'grad_norm': 1.8833768642978759, 'learning_rate': 6.378812573440973e-08, 'epoch': 1.98}
+{'loss': 0.6948, 'grad_norm': 2.1882417087246235, 'learning_rate': 6.071476744742288e-08, 'epoch': 1.98}
+{'loss': 0.7564, 'grad_norm': 1.837377253733869, 'learning_rate': 5.7717264212753254e-08, 'epoch': 1.98}
+{'loss': 0.7228, 'grad_norm': 1.804300479095014, 'learning_rate': 5.479561830553648e-08, 'epoch': 1.98}
+{'loss': 0.5548, 'grad_norm': 1.5515917727290474, 'learning_rate': 5.194983194332093e-08, 'epoch': 1.98}
+{'loss': 0.7042, 'grad_norm': 1.8644084215908896, 'learning_rate': 4.91799072861121e-08, 'epoch': 1.98}
+{'loss': 0.753, 'grad_norm': 2.0015414839594814, 'learning_rate': 4.6485846436294946e-08, 'epoch': 1.98}
+{'loss': 0.6586, 'grad_norm': 1.6836521894911296, 'learning_rate': 4.386765143870042e-08, 'epoch': 1.98}
+{'loss': 0.8307, 'grad_norm': 1.9776979772281555, 'learning_rate': 4.1325324280583335e-08, 'epoch': 1.98}
+{'loss': 0.9124, 'grad_norm': 2.2771054185262005, 'learning_rate': 3.885886689156682e-08, 'epoch': 1.98}
+{'loss': 0.7952, 'grad_norm': 2.0392820909623643, 'learning_rate': 3.646828114374223e-08, 'epoch': 1.98}
+{'loss': 1.0783, 'grad_norm': 2.9577146376451067, 'learning_rate': 3.415356885159149e-08, 'epoch': 1.98}
+{'loss': 0.6688, 'grad_norm': 2.071415607851333, 'learning_rate': 3.1914731771998105e-08, 'epoch': 1.98}
+{'loss': 0.9721, 'grad_norm': 2.315647214190619, 'learning_rate': 2.975177160426945e-08, 'epoch': 1.98}
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+100%|█████████████████████████████████████| 3718/3718 [2:12:55<00:00,  2.15s/it]
+{'loss': 0.9369, 'grad_norm': 1.971269121287353, 'learning_rate': 2.7664689990125615e-08, 'epoch': 1.99}
+{'loss': 0.7872, 'grad_norm': 1.8747841880547023, 'learning_rate': 2.5653488513666112e-08, 'epoch': 1.99}
+{'loss': 0.4401, 'grad_norm': 1.5431370098728265, 'learning_rate': 2.3718168701425404e-08, 'epoch': 1.99}
+{'loss': 0.7236, 'grad_norm': 1.491710300500103, 'learning_rate': 2.185873202233957e-08, 'epoch': 1.99}
+{'loss': 0.91, 'grad_norm': 1.9407870737884214, 'learning_rate': 2.0075179887735217e-08, 'epoch': 1.99}
+{'loss': 0.7265, 'grad_norm': 1.7375332366198342, 'learning_rate': 1.8367513651340596e-08, 'epoch': 1.99}
+{'loss': 0.9785, 'grad_norm': 2.2376891731609296, 'learning_rate': 1.6735734609307774e-08, 'epoch': 1.99}
+{'loss': 1.0056, 'grad_norm': 1.9440733888797674, 'learning_rate': 1.5179844000179357e-08, 'epoch': 1.99}
+{'loss': 0.7606, 'grad_norm': 2.227230823469372, 'learning_rate': 1.3699843004877366e-08, 'epoch': 1.99}
+{'loss': 0.6335, 'grad_norm': 1.5657998963738988, 'learning_rate': 1.2295732746747668e-08, 'epoch': 1.99}
+{'loss': 0.7891, 'grad_norm': 1.8325038458154446, 'learning_rate': 1.0967514291526648e-08, 'epoch': 1.99}
+{'loss': 0.6127, 'grad_norm': 2.144295509692655, 'learning_rate': 9.715188647341223e-09, 'epoch': 1.99}
+{'loss': 0.5461, 'grad_norm': 2.1234361488222873, 'learning_rate': 8.538756764731037e-09, 'epoch': 1.99}
+{'loss': 0.8086, 'grad_norm': 1.6584900494125878, 'learning_rate': 7.438219536615165e-09, 'epoch': 1.99}
+{'loss': 0.5599, 'grad_norm': 2.0836215187693945, 'learning_rate': 6.4135777983143075e-09, 'epoch': 1.99}
+{'loss': 0.8633, 'grad_norm': 1.6402393413841712, 'learning_rate': 5.4648323275507954e-09, 'epoch': 1.99}
+{'loss': 0.5956, 'grad_norm': 1.530922215781793, 'learning_rate': 4.5919838444152815e-09, 'epoch': 1.99}
+{'loss': 0.7559, 'grad_norm': 1.7228006852630469, 'learning_rate': 3.795033011422256e-09, 'epoch': 1.99}
+{'loss': 0.59, 'grad_norm': 1.8252584537030407, 'learning_rate': 3.0739804334656285e-09, 'epoch': 2.0}
+{'loss': 0.6146, 'grad_norm': 1.8223300009230585, 'learning_rate': 2.4288266578298414e-09, 'epoch': 2.0}
+{'loss': 0.7343, 'grad_norm': 1.628502348672758, 'learning_rate': 1.859572174200963e-09, 'epoch': 2.0}
+{'loss': 0.7457, 'grad_norm': 1.6131114536938025, 'learning_rate': 1.3662174146333861e-09, 'epoch': 2.0}
+{'loss': 0.6848, 'grad_norm': 1.7267026498522915, 'learning_rate': 9.487627536053368e-10, 'epoch': 2.0}
+{'loss': 0.4094, 'grad_norm': 1.3616332919370495, 'learning_rate': 6.072085079633638e-10, 'epoch': 2.0}
+{'loss': 0.8638, 'grad_norm': 2.1074855439123947, 'learning_rate': 3.415549369556459e-10, 'epoch': 2.0}
+{'loss': 0.8086, 'grad_norm': 1.573867627907317, 'learning_rate': 1.5180224220978644e-10, 'epoch': 2.0}
+{'loss': 0.5243, 'grad_norm': 1.7161631921145364, 'learning_rate': 3.795056775501849e-11, 'epoch': 2.0}
+{'loss': 1.0216, 'grad_norm': 1.8207116863864161, 'learning_rate': 0.0, 'epoch': 2.0}
+{'train_runtime': 7976.46, 'train_samples_per_second': 14.909, 'train_steps_per_second': 0.466, 'train_loss': 0.17982403031435623, 'epoch': 2.0}
+Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+Non-default generation parameters: {'max_length': 4096}
+/home/abadagab/anaconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.

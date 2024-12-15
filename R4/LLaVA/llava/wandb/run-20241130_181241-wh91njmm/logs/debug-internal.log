@@ -1,0 +1,8 @@
+{"time":"2024-11-30T18:12:41.028386375-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-30T18:12:41.028416702-05:00","level":"INFO","msg":"created symlink","path":"/home/abadagab/LLaVA/llava/wandb/run-20241130_181241-wh91njmm/logs/debug-core.log"}
+{"time":"2024-11-30T18:12:41.33677488-05:00","level":"INFO","msg":"created new stream","id":"wh91njmm"}
+{"time":"2024-11-30T18:12:41.336822848-05:00","level":"INFO","msg":"stream: started","id":"wh91njmm"}
+{"time":"2024-11-30T18:12:41.337049693-05:00","level":"INFO","msg":"handler: started","stream_id":"wh91njmm"}
+{"time":"2024-11-30T18:12:41.337278021-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"wh91njmm"}
+{"time":"2024-11-30T18:12:41.337283465-05:00","level":"INFO","msg":"sender: started","stream_id":"wh91njmm"}
+{"time":"2024-11-30T18:12:41.573076796-05:00","level":"INFO","msg":"Starting system monitor"}

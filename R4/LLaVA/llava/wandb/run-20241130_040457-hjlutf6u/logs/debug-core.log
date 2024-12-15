@@ -1,0 +1,7 @@
+{"time":"2024-11-30T04:04:56.712670184-05:00","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmpufrezkwn/port-19284.txt","pid":19284,"debug":false,"disable-analytics":false}
+{"time":"2024-11-30T04:04:56.712725375-05:00","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-30T04:04:56.71475376-05:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":46267,"Zone":""}}
+{"time":"2024-11-30T04:04:56.714844518-05:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":19284}
+{"time":"2024-11-30T04:04:56.895372388-05:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:40356"}
+{"time":"2024-11-30T04:04:57.063328316-05:00","level":"INFO","msg":"handleInformInit: received","streamId":"hjlutf6u","id":"127.0.0.1:40356"}
+{"time":"2024-11-30T04:04:57.1725279-05:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"hjlutf6u","id":"127.0.0.1:40356"}

@@ -1,0 +1,16 @@
+{"time":"2024-11-27T23:11:29.727965998-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-27T23:11:29.727985185-05:00","level":"INFO","msg":"created symlink","path":"/home/abadagab/LLaVA/llava/wandb/run-20241127_231129-nxjkuw2q/logs/debug-core.log"}
+{"time":"2024-11-27T23:11:29.936856946-05:00","level":"INFO","msg":"created new stream","id":"nxjkuw2q"}
+{"time":"2024-11-27T23:11:29.936933874-05:00","level":"INFO","msg":"stream: started","id":"nxjkuw2q"}
+{"time":"2024-11-27T23:11:29.936941595-05:00","level":"INFO","msg":"handler: started","stream_id":"nxjkuw2q"}
+{"time":"2024-11-27T23:11:29.936952091-05:00","level":"INFO","msg":"sender: started","stream_id":"nxjkuw2q"}
+{"time":"2024-11-27T23:11:29.936958887-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"nxjkuw2q"}
+{"time":"2024-11-27T23:11:30.155127289-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T04:34:12.379292364-05:00","level":"INFO","msg":"stream: closing","id":"nxjkuw2q"}
+{"time":"2024-11-28T04:34:12.379333448-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T04:34:12.380001477-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T04:34:12.76170742-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T04:34:12.901414114-05:00","level":"INFO","msg":"handler: closed","stream_id":"nxjkuw2q"}
+{"time":"2024-11-28T04:34:12.901470407-05:00","level":"INFO","msg":"sender: closed","stream_id":"nxjkuw2q"}
+{"time":"2024-11-28T04:34:12.901460677-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nxjkuw2q"}
+{"time":"2024-11-28T04:34:12.901548383-05:00","level":"INFO","msg":"stream: closed","id":"nxjkuw2q"}
