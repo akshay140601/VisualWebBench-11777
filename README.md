@@ -1,6 +1,6 @@
 # VisualWebBench Project - Fine-Tuning Multimodal Large Language Models (MLLMs)
 
-This repository contains the implementation, evaluation, and fine-tuning pipelines for improving Multimodal Large Language Models (MLLMs) on the [VisualWebBench](https://visualwebbench.github.io/) benchmark using the [MultiUI](https://neulab.github.io/MultiUI/) dataset. Our work was conducted as part of the coursework at the Carnegie Mellon University Language Technologies Institute (LTI) within the School of Computer Science ([Fall 2020 Special Topics](https://cmu-mmml.github.io/fall2020/)).
+This repository contains the implementation, evaluation, and fine-tuning pipelines for improving Multimodal Large Language Models (MLLMs) on the [VisualWebBench](https://visualwebbench.github.io/) benchmark using the [MultiUI](https://neulab.github.io/MultiUI/) dataset. Our work was conducted as part of the coursework at the Carnegie Mellon University Language Technologies Institute (LTI) within the School of Computer Science ([Course Website](https://cmu-mmml.github.io/)).
 
 ---
 
